@@ -1,0 +1,86 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono);
+
+body {
+    background-color: #444444;
+    margin: 16px;
+}
+
+.logo {
+    float: right;
+    border-radius: 3px;
+    width: 128px;
+    height: 128px;
+    margin: 10px;
+}
+
+#title {
+    font-family: "Ubuntu Mono", Consolas, monospace;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 42px;
+}
+
+#title a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.head-section {
+    border-bottom: 1px solid #999999;
+    margin: 0;
+}
+
+#info-links {
+    font-family: "Ubuntu Mono", Consolas, monospace;
+    padding: 0.5em 1em;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    clear: both;
+}
+
+#info-links-left {
+    display: inline-block;
+    float: left;
+}
+
+#info-links-right {
+    display: inline-block;
+    text-align: right;
+}
+
+#info-links a {
+    text-decoration: none;
+    color: #0000ff;
+}
+
+a#current-info-link {
+    color: #009900;
+}
+
+#container {
+	background-color: #eeeeee;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+.section-heading {
+    font-family: "Ubuntu Mono", Consolas, monospace;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+#content {
+    font-family: "Ubuntu";
+    padding: 1.5em 2em;
+    line-height: 150%;
+}
+
+.clear {
+    clear: both;
+}
