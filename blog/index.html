@@ -441,7 +441,7 @@
                     var playbackRate = player.getPlaybackRate();
                     player.durationCache = player.durationCache || {};
 
-                    for (key in marks ) {
+                    for (var key in marks ) {
 
                         if (marks[key] <= currentTime && !player.durationCache[key]) {
 
