@@ -53,7 +53,7 @@ body {
 	color: #0000ff;
 }
 
-a#current-info-link {
+a.current-info-link {
 	color: #009900;
 }
 
