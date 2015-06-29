@@ -91,7 +91,7 @@ a.current-info-link {
 }
 
 .warning {
-    background-color: #ff8000;
+    background-color: lightpink;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
