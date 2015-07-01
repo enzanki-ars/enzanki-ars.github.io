@@ -53,7 +53,7 @@ body {
 	color: #0000ff;
 }
 
-a.current-info-link {
+.current-info-link {
 	color: #009900;
 }
 
@@ -98,4 +98,26 @@ a.current-info-link {
     border-radius: 3px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     font-size: 16px;
+}
+
+#videolink_left {
+  float: left;
+  max-width: 45%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: lightgreen;
+  margin: 5px;
+  overflow: hidden;
+}
+
+#videolink_right {
+  float: right;
+  max-width: 45%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: lightgreen;
+  margin: 5px;
+  overflow: hidden;
 }
