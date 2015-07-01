@@ -101,23 +101,23 @@ body {
 }
 
 #videolink_left {
-  float: left;
-  max-width: 45%;
-  box-sizing: border-box;
-  border-radius: 3px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  background-color: lightgreen;
-  margin: 5px;
-  overflow: hidden;
+	float: left;
+	max-width: 45%;
+	box-sizing: border-box;
+	border-radius: 3px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	background-color: lightgreen;
+	margin: 5px;
+	overflow: hidden;
 }
 
 #videolink_right {
-  float: right;
-  max-width: 45%;
-  box-sizing: border-box;
-  border-radius: 3px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  background-color: lightgreen;
-  margin: 5px;
-  overflow: hidden;
+	float: right;
+	max-width: 45%;
+	box-sizing: border-box;
+	border-radius: 3px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	background-color: lightgreen;
+	margin: 5px;
+	overflow: hidden;
 }
