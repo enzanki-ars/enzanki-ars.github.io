@@ -10,12 +10,10 @@ body {
 	border-radius: 3px;
 	width: 128px;
 	height: 128px;
-	margin: 10px;
 }
 
 .logodesc {
 	float: right;
-	border-radius: 3px;
 	margin: 10px;
 }
 
