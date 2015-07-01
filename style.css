@@ -13,6 +13,12 @@ body {
 	margin: 10px;
 }
 
+.logodesc {
+	float: right;
+	border-radius: 3px;
+	margin: 10px;
+}
+
 #title {
 	font-family: "Ubuntu Mono", Consolas, monospace;
 	text-align: center;
