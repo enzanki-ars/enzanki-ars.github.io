@@ -3,13 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Alex Shafer -- enzanki-ars
 
-# THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    HTML5, CSS3, Bootstrap, jQuery, Modernizr, Initializr
