@@ -50,8 +50,8 @@
   </script>
   <!-- End Google Tag Manager -->
   <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -72,7 +72,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li>
+          <li class="active">
             <a href="/index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li>
@@ -83,7 +83,7 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li class="active">
+          <li>
             <a href="/privacy.html">Privacy</a>
           </li>
           <li class="dropdown">
@@ -104,55 +104,5 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
-
-  <div class="container">
-    <h1>Privacy</h1>
-
-    <p>
-      This site uses Google Analytics to learn more about how people are viewing this site.
-      The information collected via Google Analytics is not personally identifiable
-      and is only used to improve the site. Other technology on this site like YouTube
-      Embeds, Twitter Embeds, and GitHub Sites might also collect information about
-      visitors. If you would like to optout, please visit the following sites:
-    </p>
-    <ul>
-      <li>
-        <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-Out</a>
-      </li>
-      <li>
-        <a href="https://support.twitter.com/articles/20169453">Twitter Tracking Opt-Out Information</a>
-      </li>
-      <li>
-        <a href="https://support.google.com/ads/answer/2662922?hl=en">YouTube Ad Opt-Out</a>
-      </li>
-    </ul>
-
-    <hr>
-
-    <footer>
-      <p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"
-          /> </a>
-        <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">enzanki-ars.github.io</span>
-        by
-        <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Alexander Shafer</span>
-        is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
-                    Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-      </p>
-    </footer>
-  </div>
-  <!-- /container -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>
-    window.jQuery || document.write(
-      '<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')
-  </script>
-
-  <script src="/js/vendor/bootstrap.min.js"></script>
-
-  <script src="/js/plugins.js"></script>
-  <script src="/js/main.js"></script>
-</body>
-
-</html>
+  
+    <div class="container">
