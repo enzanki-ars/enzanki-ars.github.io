@@ -73,18 +73,38 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active">
-            <a href="/index.php">Home <span class="sr-only">(current)</span></a>
+            <a href="/index.php">Home 
+			<?php
+				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/index.php")
+				<span class="sr-only">(current)</span>
+			?>
+			</a>
           </li>
           <li>
-            <a href="/blog/index.php">Blog</a>
+            <a href="/blog/index.php">Blog 
+			<?php
+				if ($_SERVER[REQUEST_URI]=="/blog" or $_SERVER[REQUEST_URI]=="/blog/" or $_SERVER[REQUEST_URI]=="/blog/index.php")
+				<span class="sr-only">(current)</span>
+			?>
+			</a>
           </li>
           <li>
-            <a href="/capstone.php">Capstone</a>
+            <a href="/capstone.php">Capstone 
+			<?php
+				if ($_SERVER[REQUEST_URI]=="/capstone.php")
+				<span class="sr-only">(current)</span>
+			?>
+			</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="/privacy.php">Privacy</a>
+            <a href="/privacy.php">Privacy 
+			<?php
+				if ($_SERVER[REQUEST_URI]=="/privacy.php")
+				<span class="sr-only">(current)</span>
+			?>
+			</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
