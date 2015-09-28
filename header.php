@@ -66,25 +66,25 @@
         <a class="navbar-brand" href="#">
           <img alt="Brand" src="/img/profile.jpeg" style="width: 20px; height: 20px; border-radius: 2px;">
         </a>
-        <a class="navbar-brand" href="/index.html">enzanki_ars</a>
+        <a class="navbar-brand" href="/index.php">enzanki_ars</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active">
-            <a href="/index.html">Home <span class="sr-only">(current)</span></a>
+            <a href="/index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li>
-            <a href="/blog/index.html">Blog</a>
+            <a href="/blog/index.php">Blog</a>
           </li>
           <li>
-            <a href="/capstone.html">Capstone</a>
+            <a href="/capstone.php">Capstone</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="/privacy.html">Privacy</a>
+            <a href="/privacy.php">Privacy</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
