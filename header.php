@@ -76,7 +76,7 @@
             <a href="/index.php">Home 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/index.php")
-				echo '<span class="sr-only">(current)</span>"'
+				echo "<span class=\"sr-only\">(current)</span>\""
 			?>
 			</a>
           </li>
@@ -84,7 +84,7 @@
             <a href="/blog/index.php">Blog 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="/blog" or $_SERVER[REQUEST_URI]=="/blog/" or $_SERVER[REQUEST_URI]=="/blog/index.php")
-				echo '<span class="sr-only">(current)</span>"'
+				echo "<span class=\"sr-only\">(current)</span>\""
 			?>
 			</a>
           </li>
@@ -92,7 +92,7 @@
             <a href="/capstone.php">Capstone 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="/capstone.php")
-				echo '<span class="sr-only">(current)</span>"'
+				echo "<span class=\"sr-only\">(current)</span>\""
 			?>
 			</a>
           </li>
@@ -102,7 +102,7 @@
             <a href="/privacy.php">Privacy 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="/privacy.php")
-				echo '<span class="sr-only">(current)</span>"'
+				echo "<span class=\"sr-only\">(current)</span>\""
 			?>
 			</a>
           </li>
