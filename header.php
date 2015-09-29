@@ -72,15 +72,21 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active">
+          <li <?php 
+				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/index.php")
+				echo "class=\"active\""
+			?>>
             <a href="/index.php">Home 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/index.php")
-				echo "<span class=\"sr-only\">(current)</span>\""
+					echo "<span class=\"sr-only\">(current)</span>\""
 			?>
 			</a>
           </li>
-          <li>
+          <li <?php 
+				if ($_SERVER[REQUEST_URI]=="/blog" or $_SERVER[REQUEST_URI]=="/blog/" or $_SERVER[REQUEST_URI]=="/blog/index.php")
+				echo "class=\"active\""
+			?>>
             <a href="/blog/index.php">Blog 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="/blog" or $_SERVER[REQUEST_URI]=="/blog/" or $_SERVER[REQUEST_URI]=="/blog/index.php")
@@ -88,7 +94,10 @@
 			?>
 			</a>
           </li>
-          <li>
+          <li <?php 
+				if ($_SERVER[REQUEST_URI]=="/capstone.php")
+				echo "class=\"active\""
+			?>>
             <a href="/capstone.php">Capstone 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="/capstone.php")
@@ -98,11 +107,14 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li>
+          <li<?php 
+				if ($_SERVER[REQUEST_URI]=="/privacy.php")
+				echo "class=\"active\""
+			?>>
             <a href="/privacy.php">Privacy 
 			<?php
 				if ($_SERVER[REQUEST_URI]=="/privacy.php")
-				echo "<span class=\"sr-only\">(current)</span>\""
+				echo "<span class=\"sr-only\">(current)</span>"
 			?>
 			</a>
           </li>
