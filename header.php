@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
   <style>
     body {
       padding-top: 70px;
@@ -24,13 +24,13 @@
   <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="/css/main.css">
 
-  <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
 
 <body>
   <!-- Google Tag Manager -->
   <noscript>
-    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KXL6BX" height="0" width="0"
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXL6BX" height="0" width="0"
     style="display:none;visibility:hidden"></iframe>
   </noscript>
   <script>
@@ -73,12 +73,12 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li <?php 
-				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/index.php")
+				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/" or $_SERVER[REQUEST_URI]=="/index.php")
 				echo "class=\"active\""
 			?>>
             <a href="/index.php">Home 
 			<?php
-				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/index.php")
+				if ($_SERVER[REQUEST_URI]=="" or $_SERVER[REQUEST_URI]=="/" or $_SERVER[REQUEST_URI]=="/index.php")
 					echo "<span class=\"sr-only\">(current)</span>"
 			?>
 			</a>

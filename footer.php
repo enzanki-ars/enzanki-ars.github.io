@@ -10,16 +10,19 @@
         is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
                     Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
       </p>
+      <p>
+	Code avalible at <a href="https://github.com/enzanki-ars/enzanki-ars.github.io">github.com/enzanki-ars/enzanki-ars.github.io</a>
+      </p>
     </footer>
   </div>
   <!-- /container -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>
     window.jQuery || document.write(
-      '<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')
+      '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')
   </script>
 
-  <script src="/js/vendor/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
 
   <script src="/js/plugins.js"></script>
   <script src="/js/main.js"></script>
