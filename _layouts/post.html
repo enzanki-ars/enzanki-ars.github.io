@@ -2,29 +2,21 @@
     <h1>{{ page.title }}</h1>
     <i>{{ page.date | date: "%A, %B %d, %Y" }}</i>
     <hr>
+    
     {{ content }}
     
     <nav>
         <ul class="pager">
             {% if page.previous.url %}
-                <li class="previous"><a href="{{ page.previous.url }}"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                <li class="previous"><a href="{{ page.previous.url }}"><span aria-hidden="true">&larr;</span> Previous - {{ page.previous.title }}</a></li>
             {% else %}
                 <li class="previous disabled"><a href="{{ page.previous.url }}"><span aria-hidden="true">&larr;</span> Previous</a></li>
             {% endif %}
             {% if page.next.url %}
-                <li class="next"><a href="{{ page.next.url }}">Next <span aria-hidden="true">&rarr;</span></a></li>
+                <li class="next"><a href="{{ page.next.url }}">Next - {{ page.next.title }} <span aria-hidden="true">&rarr;</span></a></li>
             {% else %}
                 <li class="next disabled"><a href="{{ page.next.url }}">Next <span aria-hidden="true">&rarr;</span></a></li>
             {% endif %}
         </ul>
     </nav>
-    
-    <div class="post-nav">
-        {% if page.previous.url %}
-            <a class="previous-post" href="{{ page.previous.url }}" title="Article précédent">← {{ page.previous.title }}</a>
-        {% endif %}
-        {% if page.next.url %}
-            <a class="next-post" href="{{ page.next.url }}" title="Article suivant">{{ page.next.title }} →</a>
-        {% endif %}
-    </div>
 {% include footer.html %}
