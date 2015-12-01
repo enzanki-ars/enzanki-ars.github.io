@@ -11,7 +11,8 @@ The amount of data passed though OARNet and power used is staggering. After a
 tour of OARNet, we continued learning how to connect multiple switches together
 as shown below.
 
-<img src="{{ site.url }}/img/2switchconfigdia.png" alt="Picture of Switch Configuration" style="max-width:100%">
+<img src="{{ site.url }}/img/2switchconfigdia.png" alt="Picture of Switch Configuration" 
+class="img-responsive">
 
 I have been holding off on posting about what we do at the dorms until now, but I
 thought now would be a great time to talk about it here. We have played so many
