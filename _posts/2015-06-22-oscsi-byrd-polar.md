@@ -28,7 +28,7 @@ the samples, not the temperature of the storage room. The storage room was about
 was cold during the winter...
 
 <img src="https://lh3.googleusercontent.com/QLR43CJrBClPzfeINGjruKrAPzqwRxcHZpRVWERx5A=w799-h599-no"
-alt="Picture of rocks at the Byrd Polar and Climate Research Center" style="max-width:100%;">
+alt="Picture of rocks at the Byrd Polar and Climate Research Center" class="img-responsive">
 <img src="https://lh3.googleusercontent.com/8sEQP__LrU11-0D8Mq123HC8VS-ZSt1HonX1Z399QA=w450-h599-no"
 alt="Referenced picture of thermometer at the Byrd Polar and Climate Research Center"
-style="max-width:100%;">
+class="img-responsive">
