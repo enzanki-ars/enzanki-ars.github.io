@@ -8,7 +8,7 @@ we created for connecting two switches together, we started wiring all of our
 switches together as shown below.
 
 <img src="{{ site.url }}/img/multiswitchconfigdia.png" alt="Picture of New Switch Configuration"
-style="max-width:100%">
+class="img-responsive">
 
 After working on our new network, we visited the State of Ohio Computer Center where
 the supercomputers are housed. We were able to see all three of the current supercomputers;
@@ -23,4 +23,4 @@ for certain types of jobs. Below is a labeled picture of the inside of one Glenn
 node.
 
 <img src="https://lh3.googleusercontent.com/GrquJkuIWDz1TSPAAPz7QIdhkS-4TKBPyU5MM_UHKQ=w858-h643-no"
-alt="Labeled picture of one Glenn node" style="max-width:100%">
+alt="Labeled picture of one Glenn node" class="img-responsive">
