@@ -1,0 +1,5 @@
+{% include header.html %}
+    <h1>{{ page.title }}</h1>
+    <i>{{ page.date | date: "%A, %B %d, %Y" }}</i>
+    {{ content }}
+{% include footer.html %}
