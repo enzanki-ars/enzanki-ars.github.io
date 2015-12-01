@@ -7,7 +7,7 @@ We finished our training for creating and connecting switches. After saving the 
 we created for connecting two switches together, we started wiring all of our
 switches together as shown below.
 
-<img src="img/multiswitchconfigdia.png" alt="Picture of New Switch Configuration"
+<img src="{{ site.url }}/img/multiswitchconfigdia.png" alt="Picture of New Switch Configuration"
 style="max-width:100%">
 
 After working on our new network, we visited the State of Ohio Computer Center where
