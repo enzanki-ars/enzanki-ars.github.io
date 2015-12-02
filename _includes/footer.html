@@ -24,7 +24,8 @@
   
   <script>
     function loadSuccess() {
-        document.getElementById("blockedInfo").innerHTML = "";
+        var div_x = document.getElementById('blockedInfo');
+        div_x.parentNode.removeChild(div_x);
     	var image_x = document.getElementById('blockedImage');
         image_x.parentNode.removeChild(image_x);
     }
