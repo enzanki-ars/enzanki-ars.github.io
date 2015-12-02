@@ -28,11 +28,11 @@
         image_x.parentNode.removeChild(image_x);
     }
     
-    function loadError() {
-        document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
-            + "<strong>YouTube blocking in place: </strong>You seem to be accessing this site from a location where " 
-            + "YouTube is blocked and some posts on this site use YouTube embed codes. " 
-            + "Please contact your network administrator to attempt to fix this situation.</div>";
+    function loadError(site) {
+        document.getElementById("blockedInfo").innerHTML += "<div class=\"alert alert-danger\" role=\"alert\">" 
+            + "<strong>" + site + " blocking in place: </strong>You seem to be accessing this site from a location where " 
+            + site + " is blocked. As some parts of this site use items from " + site + ", " 
+            + "please contact your network administrator in order to view the site as intended.</div>";
         var image_x = document.getElementById('blockedImage');
         image_x.parentNode.removeChild(image_x);
     }
