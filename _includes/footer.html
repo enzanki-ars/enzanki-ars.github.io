@@ -21,6 +21,17 @@
     window.jQuery || document.write(
       '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')
   </script>
+  
+  <script>
+    function loadError() {
+        document.getElementById("blockedInfo").innerHTML = "<div class="alert alert-danger" role="alert">" 
+            + "<strong>YouTube blocking in place: </strong>You seem to be accessing this site from a location where " 
+            + "YouTube is blocked and some posts on this site use YouTube embed codes. " 
+            + "Please contact your network administrator to attempt to fix this situation.</div>";
+        var image_x = document.getElementById('blockedImage');
+        image_x.parentNode.removeChild(image_x);
+    }
+    </script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
