@@ -30,9 +30,9 @@
     
     function loadError(site) {
         document.getElementById("blockedInfo").innerHTML += "<div class=\"alert alert-danger\" role=\"alert\">" 
-            + "<strong>" + site + " blocking in place: </strong>You seem to be accessing this site from a location where " 
-            + site + " is blocked. As some parts of this site use items from " + site + ", " 
-            + "please contact your network administrator in order to view the site as intended.</div>";
+            + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
+            + site + " is blocked. As part of this site uses items from " + site + ", " 
+            + "please contact your network administrator in order to view this page as intended.</div>";
         var image_x = document.getElementById('blockedImage');
         image_x.parentNode.removeChild(image_x);
     }
