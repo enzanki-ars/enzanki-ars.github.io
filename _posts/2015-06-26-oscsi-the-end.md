@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: ytpost
 title: OSCSI - The End
 ---
-
-{% include ytblockcheck.html %}
 
 Sad to see the end of our two weeks at the Summer Institute, but I enjoyed my time
 here. Our presentation is a available below in two different formats. The default
