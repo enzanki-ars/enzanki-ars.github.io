@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: ytpost
 title: OSCSI - Ohio Supercomputer Center Intro
 ---
-
-{% include ytblockcheck.html %}
 
 Another exciting day at the Summer Institute. To start the day, we had an introduction
 to the Ohio Supercomputer Center and the Supercomputers they utilize. Supercomputers
