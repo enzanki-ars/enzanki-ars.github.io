@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: ytpost
 title: OSCSI - High Energy Density Research Lab
 ---
-
-{% include ytblockcheck.html %}
 
 Today, we toured the High Energy Density Research Lab where they fire a very powerful
 laser at a small piece of metal to observe the protons emitted. To demonstrate
