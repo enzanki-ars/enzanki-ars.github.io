@@ -4,18 +4,22 @@ layout: default
 <div class="table-responsive">
   <table class="table table-striped">
     <thead>
-      <th>Date</th>
-      <th>Title</th>
+      <tr>
+        <th>Date</th>
+        <th>Title</th>
+      </tr>
     </thead>
-    {% for post in site.posts %}
-    <tr>
-      <td>
-        {{ post.date | date: "%A, %B %d, %Y" }}
-      </td>
-      <td>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </td>
-    </tr>
-    {% endfor %}
+    <tbody>
+      {% for post in site.posts %}
+      <tr>
+        <td>
+          {{ post.date | date: "%A, %B %d, %Y" }}
+        </td>
+        <td>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
   </table>
 </div>
