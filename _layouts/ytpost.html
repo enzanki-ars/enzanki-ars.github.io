@@ -1,0 +1,48 @@
+{% include header.html %}
+    <img src="https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" onload="loadSuccess()" onerror="loadError('YouTube')" id="blockedImage" height="1px" width="1px">
+    <div id="blockedInfo">Checking YouTube access...</div>
+
+    <h1>{{ page.title }}</h1>
+    <i>
+        <i class="fa fa-calendar"></i>
+        {{ page.date | date: "%A, %B %d, %Y" }}
+    </i>
+    <hr>
+    
+    {{ content }}
+    
+    <nav>
+        <ul class="pager">
+            {% if page.previous.url %}
+                <li class="previous">
+                    <a href="{{ page.previous.url }}">
+                        <i class="fa fa-arrow-left"></i>
+                        Previous - [{{ page.previous.date | date: "%A, %B %d, %Y" }}: {{ page.previous.title }}]
+                    </a>
+                </li>
+            {% else %}
+                <li class="previous disabled">
+                    <a href="{{ page.previous.url }}">
+                        <i class="fa fa-arrow-left"></i>
+                        Previous
+                    </a>
+                </li>
+            {% endif %}
+            {% if page.next.url %}
+                <li class="next">
+                    <a href="{{ page.next.url }}">
+                        Next - [{{ page.next.date | date: "%A, %B %d, %Y" }}: {{ page.next.title }}]
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+            {% else %}
+                <li class="next disabled">
+                    <a href="{{ page.next.url }}">
+                        Next 
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+{% include footer.html %}
