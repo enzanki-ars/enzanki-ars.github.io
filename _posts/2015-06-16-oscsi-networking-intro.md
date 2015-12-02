@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OSCSI - The End
+title: OSCSI - Networking Intro
 ---
 
 I am now a part of the networking project group. After an introduction to MATLAB,
