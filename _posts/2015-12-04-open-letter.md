@@ -5,7 +5,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Internet-mail.s
 description: In response to the recent iMesaage policy changes. 
 ---
 
-In response to the [recent iMessage policy changes](http://www.hilliardschools.org/teens-and-the-internet-the-power-and-pitfalls-of-a-digital-life/)
+_In response to the [recent iMessage policy changes](http://www.hilliardschools.org/teens-and-the-internet-the-power-and-pitfalls-of-a-digital-life/)._
 
 Dear Hilliard City School District Administrators,
 
