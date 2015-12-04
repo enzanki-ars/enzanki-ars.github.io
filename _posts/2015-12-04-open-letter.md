@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Open Letter to the Hilliard City School District
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Mail-reply-all.svg/480px-Mail-reply-all.svg.png
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Internet-mail.svg/480px-Internet-mail.svg.png
 ---
 
 In response to the [December 4th blog post by the Hilliard City School District](http://www.hilliardschools.org/teens-and-the-internet-the-power-and-pitfalls-of-a-digital-life/)
