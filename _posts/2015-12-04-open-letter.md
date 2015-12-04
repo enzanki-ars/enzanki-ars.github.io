@@ -1,14 +1,11 @@
 ---
 layout: post
-title: An Open Letter
+title: An Open Letter to the Hilliard City School District
 ---
-
-An open letter to the Hilliard City School District
-
 
 In response to the [December 4th blog post by the Hilliard City School District](http://www.hilliardschools.org/teens-and-the-internet-the-power-and-pitfalls-of-a-digital-life/)
 
-Dear Hilliard City School District,
+Dear Hilliard City School District Administrators,
 
 Until yesterday, all student iPads had the capacity to send and receive iMessages, an easy to use platform for students to ask questions and receive help from their fellow classmates. Today, we received confirmation that the Messages app was removed from all grade 6-8 iPads due to the abuse by a small group of students. 
 
@@ -20,8 +17,8 @@ While the senior members of the Computer Club will not be able to experience thi
 
 Sincerely,
 
-The Darby Computer Club Officers
+The Following Darby Computer Club Officers:
 
+ - Ali Akhtar
  - Alex Shafer
  - Jacob Sims
- - Ali Akhtar
