@@ -6,7 +6,7 @@ title: An Open Letter
 An open letter to the Hilliard City School District
 
 
-In response to http://www.hilliardschools.org/teens-and-the-internet-the-power-and-pitfalls-of-a-digital-life/
+In response to the [December 4th blog post by the Hilliard City School District](http://www.hilliardschools.org/teens-and-the-internet-the-power-and-pitfalls-of-a-digital-life/)
 
 Dear Hilliard City School District,
 
@@ -19,8 +19,9 @@ In this way, middle school students could receive help almost immediately after 
 While the senior members of the Computer Club will not be able to experience this new connectivity fostered by the iPads, we still hope that this policy will be reversed. By reversing this policy, we would be able to preserve this social and collaborative environment that will benefit motivated students in the years to come. 
 
 Sincerely,
+
 The Darby Computer Club Officers
 
-Alex Shafer
-Jacob Sims
-Ali Akhtar
+ - Alex Shafer
+ - Jacob Sims
+ - Ali Akhtar
