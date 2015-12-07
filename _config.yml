@@ -5,3 +5,4 @@ url: "https://enzanki-ars.github.io"
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
