@@ -9,6 +9,41 @@
     </i>
     <hr>
     
+    <nav>
+        <ul class="pager">
+            {% if page.previous.url %}
+                <li class="previous">
+                    <a href="{{ page.previous.url }}">
+                        <i class="fa fa-arrow-left"></i>
+                        Previous - [{{ page.previous.date | date: "%A, %B %d, %Y" }}: {{ page.previous.title }}]
+                    </a>
+                </li>
+            {% else %}
+                <li class="previous disabled">
+                    <a href="{{ page.previous.url }}">
+                        <i class="fa fa-arrow-left"></i>
+                        Previous
+                    </a>
+                </li>
+            {% endif %}
+            {% if page.next.url %}
+                <li class="next">
+                    <a href="{{ page.next.url }}">
+                        Next - [{{ page.next.date | date: "%A, %B %d, %Y" }}: {{ page.next.title }}]
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+            {% else %}
+                <li class="next disabled">
+                    <a href="{{ page.next.url }}">
+                        Next 
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+    
     {{ content }}
     
     <nav>
