@@ -4,21 +4,25 @@ layout: default
 
 <h1>Presidential Bracket Challenge</h1>
 
-<h2>Current Results</h2>
-<div class="row">
-  <div class="col-md-8">
+<ul id="myTabs" class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="active"><a href="#bracket" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Bracket</a></li>
+  <li role="presentation" class=""><a href="#results" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Results</a></li>
+  <li role="presentation" class=""><a href="#submit" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Submit Response - Currently Accepting: Predictions</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div role="tabpanel" class="tab-pane fade active in" id="bracket" aria-labelledby="home-tab">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://docs.google.com/spreadsheets/d/1Af0dK05PhIfeYhyMRLChnJ9-op1U677IJcxjEmvbxRE/pubhtml?gid=1957870551&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     </div>
   </div>
-  <div class="col-md-4">
+  <div role="tabpanel" class="tab-pane fade" id="results" aria-labelledby="profile-tab">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://docs.google.com/spreadsheets/d/1Af0dK05PhIfeYhyMRLChnJ9-op1U677IJcxjEmvbxRE/pubhtml?gid=1126184638&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     </div>
   </div>
-</div>
-
-<h2>Submittions - Currently Accepting Predictions</h2>
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://docs.google.com/a/hilliardschools.org/forms/d/10wSe9uTadRKhUX56LlcZpjHYwyuiPbraCVMbSEWFpH4/viewform?embedded=true">Loading...</iframe>
+  <div role="tabpanel" class="tab-pane fade" id="submit" aria-labelledby="dropdown1-tab">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://docs.google.com/a/hilliardschools.org/forms/d/10wSe9uTadRKhUX56LlcZpjHYwyuiPbraCVMbSEWFpH4/viewform?embedded=true">Loading...</iframe>
+    </div>
+  </div>
 </div>
