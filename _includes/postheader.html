@@ -1,0 +1,54 @@
+{% if page.title %}
+  <h1>{{ page.title }}</h1>
+{% else %}
+  <h1>Latest Announcements</h1>
+{% endif %}
+
+{% if page.date %}
+  <i>
+    <i class="fa fa-calendar"></i>
+    {{ page.date | date: "%A, %B %d, %Y" }}
+  </i>
+  <br>
+{% elsif include.info.date %}
+  <i>
+    <i class="fa fa-calendar"></i>
+    {{ include.info.date | date: "%A, %B %d, %Y" }}
+  </i>
+  <br>
+{% elsif include.info.lastupdate %}
+  <i>
+    <i class="fa fa-calendar"></i>
+    {{ include.info.lastupdate | date: "%A, %B %d, %Y" }}
+  </i>
+  <br>
+{% endif %}
+
+{% if page.authors %}
+  <ul class="list-unstyled">
+    {% for author in page.authors %}
+	<li>
+	  <i class="fa fa-user"></i> {{ author.role }}: {{ author.name }}
+	  {% if author.username %}
+	    (<a href="https://github.com/{{ author.username }}">{{ author.username }}</a>)
+	  {% endif %}
+	</li>
+    {% endfor %}
+  </ul>
+{% elsif include.info.authors %}
+  <ul class="list-unstyled">
+    {% for author in include.info.authors %}
+	<li>
+	  <i class="fa fa-user"></i> {{ author.role }}: {{ author.name }}
+	  {% if author.username %}
+	    (<a href="https://github.com/{{ author.username }}">{{ author.username }}</a>)
+	  {% endif %}
+	</li>
+    {% endfor %}
+  </ul>
+{% else %}
+	<i class="fa fa-user-times"></i> No author information provided.
+{% endif %}
+<hr>
+<i class="fa fa-exclamation-triangle"></i> Find an error? Let us know using <a href="{{ site.github.issues_url }}">GitHub Issues</a>.
+<hr>
