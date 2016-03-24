@@ -19,44 +19,45 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li>
-          <a href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">Home</a>
+          <a href="{{ site.url }}/index.html">Home</a>
+        </li>
+        <li>
+          <a href="{{ site.url }}/posts.html">Blog</a>
+        </li>
+        <li>
+          <a href="{{ site.url }}/capstone.html">Capstone</a>
         </li>
         <li class="dropdown">
-          <a href="{{ site.github.url | replace_first:'http://','https://' }}/posts.html" 
-            class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-            aria-expanded="false">
-            Archives<span class="caret"></span>
-          </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+          aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li>
-              <a href="{{ site.github.url | replace_first:'http://','https://' }}/posts.html">Full List</a>
-              <a href="{{ site.github.url | replace_first:'http://','https://' }}/latest.html">Latest</a>
+              <a href="https://enzanki-ars.github.io/dbybracketchallenge/">Darby APUSH Bracket Challenge</a>
             </li>
-            <li role="separator" class="divider"></li>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url | prepend: site.github.url | replace_first:'http://','https://' }}">{{ post.date | date: "%A, %B %d, %Y" }} - {{ post.title }}</a>
-              </li>
-            {% endfor %}
           </ul>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ site.url }}/about.html">About Me</a>
+        </li>
+        <li>
+          <a href="{{ site.url }}/privacy.html">Privacy</a>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-            aria-expanded="false">
-            Links<span class="caret"></span>
-          </a>
+          aria-expanded="false">Social <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li>
-              <a href="https://www.hilliardschools.org/">District Website</a>
+              <a href="https://github.com/enzanki-ars">GitHub</a>
             </li>
+            <li>
+              <a href="https://twitter.com/enzanki_ars">Twitter</a>
           </ul>
         </li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
-  </div>
   <!-- /.container-fluid -->
-</nav>
+  </nav>
 <div class="container">
