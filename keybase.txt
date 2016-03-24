@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/enzanki_ars
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://enzanki-ars.github.io
+  * I am enzanki_ars (https://keybase.io/enzanki_ars) on keybase.
+  * I have a public key with fingerprint E288 EE93 ADAD 6BF2 7466  87F9 32B9 1A35 E65E 2EB4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101fd003116a7114c90c64e65d4657a7da1865c116692723fa417ff2bfcbf36cbdc0a",
+            "fingerprint": "e288ee93adad6bf2746687f932b91a35e65e2eb4",
+            "host": "keybase.io",
+            "key_id": "32b91a35e65e2eb4",
+            "kid": "0101fd003116a7114c90c64e65d4657a7da1865c116692723fa417ff2bfcbf36cbdc0a",
+            "uid": "75e827cf81bf18983aa04b3ae0aa6319",
+            "username": "enzanki_ars"
+        },
+        "service": {
+            "hostname": "enzanki-ars.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458849883,
+    "expire_in": 157680000,
+    "prev": "ef42d3495b9908877f3f06ead7d6f82fb2e3b33cc3659b1afe1cfe78d9f858c4",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMNGAnicrVJ/TFVlGL4XkQRRUoGcbcWOQPMKt/P7fOdKs+kAAUHmdWQS3s6P73CP
+wL2Xew4XuIBg7rLWnCBLLAjhgo2fOnRkw5agyxkwFtSVNjdzYZgTdFFGagadQ/VH
+W3/2/fPt+97ned7nffZ+sWaFIcyID26i7h40DxjHrnSUGHIe7cqtQHinWI5YKpAC
+uHzBQhEqqq1AFhELgmIoJokoSmAYzTEYRgosKtAkpCmRpCmGY0QOAzQlaGWaxRmc
+kDgSYyQJ5yWBlwha4EUB5ZAERJId+dDtcssOVZOFOAAQsgQnciLNSzhD0jRgJJbA
+eRbjCErThzjkSY1odyo6QzPHcwo0y07tT3vYlu39B/5/9l2yLMdQEOCMIAGMlzDA
+AoLjUJInOIhyHE1grA5UoNvBFUF9OoeXcxTINs6tIFUJiFbwyALUs9WH+TcoUQOZ
+82XVXsL/NZvL7VSdgrNQg9hV1aVYdAm13KVzSiFv+1vNxssOUctUY3igW5GdDsSC
+aUhBlXV5jKQAIFkAiAQElrlkN7TJOoJiaIBqR+8DPboNicRFgmQpnmVRABhGIiSU
+hpzIiLQEcInHIcEThCAQNMXyGCdBTJAgA0RWAhQQ9MQVWOxwIhatk8rla5KKnO/g
+1BI3RKquXnkr2GAMM4SsDNJ3zRAW+vw/G7jgj1h8xftmfRK+I2Y0Yqi5dcn6+vi6
+uvq43ANRKfsSu+4gH7uKjwU9meguI5rmKm6Ph7ecbOjyFlr623ute7Z4rW2N++1D
+J96La29qTs15dO9hNBU6UG0K3TDv6RUFpCSx4aOZni1KoVUtbu/f+O2hI7tMiYEz
+9/zp8cevLTHlnZPWfUeUttIzMS+XHxumky9+UBvSMRporVxanZJjr+xJ7nE9fNFe
+vhhqTtnTUlQ3QtWkPIi2NBj9Le9Lfey14wPiuRsLC5NRp6d9B9bVd+5sOz/9IDe5
+PjvCtMk0BWZWD1wfzi6jA581R3WlweiGNPMof+5+hn886Zv4w7OXTvtSW++Om8+b
+FkLe+ONgrzd1vr26KavTp8Xpazz7nOnkYulYt/9V49Ew18/SWHFEltPqiWJntnct
+xNyviq+bZr+MjD07VWsxVg5ttn8+GT4PTiXkGYJeGpusfCHQuJPM79i9/ftBi6/o
+8Yo+JB38kDL4rGqM9c1lFm5MWvXjr79sy6rfmpHecSs+NS9wc/2NwdjKvExi7dGv
+sq+3ps95qqjDs/7Rq08CAeK7Zz9dHu6jq1dmRk7c+vT3kYkdn9yOvXh5zWxwUW0G
+UydPTvzWs3VD44XId57GUeOPeXHvtg99e8MTLq319RZvDr5Tc+Hrkf4I783dOZkt
+M4eenlo/VVP0dlru/u7Yd19bXPUnGcXCVQ==
+=YrFe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/enzanki_ars
+
+==================================================================
