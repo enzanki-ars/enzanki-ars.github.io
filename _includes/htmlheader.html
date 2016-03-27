@@ -83,7 +83,13 @@
     <script type="text/javascript">
     
     	$(document).ready(function() {
-    		
+    		if (window.location.protocol != "https:") {
+    		  document.getElementById('sitealerts').innerHTML += 
+    		    "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
+    		    + "unsecured connection. Please use " 
+    		    + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
+    		    + "to go to the secured website.</div>"
+    		}
     		$('#calendar').fullCalendar({
     			defaultDate: '{{ site.time | date: "%Y-%m-%d" }}',
     			defaultView: 'basicDay',
@@ -98,7 +104,7 @@
     
     </script>
   {% endif %}
-  <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.github.url | replace_first:'http://','https://' }}/css/main.css" />
   <style>
     {% if page.overrideheader %}
     body {
