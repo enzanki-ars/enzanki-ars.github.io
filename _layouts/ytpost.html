@@ -3,6 +3,9 @@
 {% include postheader.html %}
 {% include postpages.html %}
 
+
+<img src="https://www.youtube.com/yt/brand/media/image/yt-brand-webmin.png" onload="loadSuccess()" onerror="loadError('YouTube')" id="blockedImage" height="1px" width="1px">
+<div id="blockedInfo">Checking YouTube access...</div>
 <script>
   function loadSuccess() {
     var div_x = document.getElementById('blockedInfo');
@@ -20,8 +23,6 @@
     image_x.parentNode.removeChild(image_x);
   }
 </script>
-<img src="https://www.youtube.com/yt/brand/media/image/yt-brand-webmin.png" onload="loadSuccess()" onerror="loadError('YouTube')" id="blockedImage" height="1px" width="1px">
-<div id="blockedInfo">Checking YouTube access...</div>
 
 {{ content }}
 
