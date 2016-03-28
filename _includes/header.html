@@ -19,13 +19,13 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li>
-          <a href="{{ site.url }}/index.html">Home</a>
+          <a href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">Home</a>
         </li>
         <li>
-          <a href="{{ site.url }}/posts.html">Blog</a>
+          <a href="{{ site.github.url | replace_first:'http://','https://' }}/posts.html">Blog</a>
         </li>
         <li>
-          <a href="{{ site.url }}/capstone.html">Capstone</a>
+          <a href="{{ site.github.url | replace_first:'http://','https://' }}/capstone.html">Capstone</a>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -39,10 +39,10 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="{{ site.url }}/about.html">About Me</a>
+          <a href="{{ site.github.url | replace_first:'http://','https://' }}/about.html">About Me</a>
         </li>
         <li>
-          <a href="{{ site.url }}/privacy.html">Privacy</a>
+          <a href="{{ site.github.url | replace_first:'http://','https://' }}/privacy.html">Privacy</a>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
