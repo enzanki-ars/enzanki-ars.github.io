@@ -30,22 +30,21 @@
       $(document).ready(function() {
         if (window.location.protocol != "https:") {
           document.getElementById('sitealerts').innerHTML += 
-    		    "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
-    		    + "unsecured connection. Please use " 
-    		    + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
-    		    + "to go to the secured website.</div>"
+            "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
+            + "unsecured connection. Please use " 
+            + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
+            + "to go to the secured website.</div>"
     		}
     		$('#calendar').fullCalendar({
-    			defaultDate: '{{ site.time | date: "%Y-%m-%d" }}',
-    			defaultView: 'basicDay',
-    			editable: false,
-    			googleCalendarApiKey: 'AIzaSyCZHE5Ts4nL19uHMzNglqydt0qkp6kKsLs',
+          defaultDate: '{{ site.time | date: "%Y-%m-%d" }}',
+          defaultView: 'basicDay',
+          editable: false,
+          googleCalendarApiKey: 'AIzaSyCZHE5Ts4nL19uHMzNglqydt0qkp6kKsLs',
             events: {
                 googleCalendarId: 'ueen43t2j7bvc21mjm9313jmpnm7qb28@import.calendar.google.com'
             }
-    		});
-    		
-    	});
+        });
+      });
     
     </script>
 </body>
