@@ -47,6 +47,23 @@
       });
     
     </script>
+    <script>
+    function loadSuccess() {
+      var div_x = document.getElementById('blockedInfo');
+      div_x.parentNode.removeChild(div_x);
+      var image_x = document.getElementById('blockedImage');
+      image_x.parentNode.removeChild(image_x);
+    }
+    
+    function loadError(site) {
+      document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
+        + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
+        + site + " is blocked. As part of this site uses items from " + site + ", " 
+        + "please contact your network administrator in order to view this page as intended.</div>";
+      var image_x = document.getElementById('blockedImage');
+      image_x.parentNode.removeChild(image_x);
+    }
+  </script>
 </body>
 
 </html>
