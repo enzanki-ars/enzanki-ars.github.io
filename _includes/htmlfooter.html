@@ -43,36 +43,27 @@
             + "unsecured connection. Please use " 
             + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
             + "to go to the secured website.</div>"
-    		}
-    		$('#calendar').fullCalendar({
-          defaultDate: '{{ site.time | date: "%Y-%m-%d" }}',
-          defaultView: 'basicDay',
-          editable: false,
-          googleCalendarApiKey: 'AIzaSyCZHE5Ts4nL19uHMzNglqydt0qkp6kKsLs',
-            events: {
-                googleCalendarId: 'ueen43t2j7bvc21mjm9313jmpnm7qb28@import.calendar.google.com'
-            }
-        });
+        }
       });
     
     </script>
     <script type="text/javascript">
-    function loadSuccess() {
-      var div_x = document.getElementById('blockedInfo');
-      div_x.parentNode.removeChild(div_x);
-      var image_x = document.getElementById('blockedImage');
-      image_x.parentNode.removeChild(image_x);
-    }
-    
-    function loadError(site) {
-      document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
-        + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
-        + site + " is blocked. As part of this site uses items from " + site + ", " 
-        + "please contact your network administrator in order to view this page as intended.</div>";
-      var image_x = document.getElementById('blockedImage');
-      image_x.parentNode.removeChild(image_x);
-    }
-  </script>
+      function loadSuccess() {
+        var div_x = document.getElementById('blockedInfo');
+        div_x.parentNode.removeChild(div_x);
+        var image_x = document.getElementById('blockedImage');
+        image_x.parentNode.removeChild(image_x);
+      }
+      
+      function loadError(site) {
+        document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
+          + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
+          + site + " is blocked. As part of this site uses items from " + site + ", " 
+          + "please contact your network administrator in order to view this page as intended.</div>";
+        var image_x = document.getElementById('blockedImage');
+        image_x.parentNode.removeChild(image_x);
+      }
+    </script>
 </body>
 
 </html>
