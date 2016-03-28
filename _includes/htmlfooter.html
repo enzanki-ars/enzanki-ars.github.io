@@ -12,19 +12,42 @@
   <script src="/js/plugins.js"></script>
   <script src="/js/main.js"></script>
   <!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    _paq.push(['setTrackerUrl',  'https://api-840358342f526ff41f5cd035dc0639b3.oasis.sandstorm.io']);
-    _paq.push(['setSiteId', 1]);
-    _paq.push(['setApiToken', 'zDZwlCJVD4CwODtm7UI36UvlAgDbDDiyEMG9ofOLJLd']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://eq6v07x3dnmx9il518gm.oasis.sandstorm.io/embed.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Piwik Code -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      _paq.push(['setTrackerUrl',  'https://api-840358342f526ff41f5cd035dc0639b3.oasis.sandstorm.io']);
+      _paq.push(['setSiteId', 1]);
+      _paq.push(['setApiToken', 'zDZwlCJVD4CwODtm7UI36UvlAgDbDDiyEMG9ofOLJLd']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://eq6v07x3dnmx9il518gm.oasis.sandstorm.io/embed.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Piwik Code -->
+  <script type="text/javascript">
+    
+      $(document).ready(function() {
+        if (window.location.protocol != "https:") {
+          document.getElementById('sitealerts').innerHTML += 
+    		    "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
+    		    + "unsecured connection. Please use " 
+    		    + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
+    		    + "to go to the secured website.</div>"
+    		}
+    		$('#calendar').fullCalendar({
+    			defaultDate: '{{ site.time | date: "%Y-%m-%d" }}',
+    			defaultView: 'basicDay',
+    			editable: false,
+    			googleCalendarApiKey: 'AIzaSyCZHE5Ts4nL19uHMzNglqydt0qkp6kKsLs',
+            events: {
+                googleCalendarId: 'ueen43t2j7bvc21mjm9313jmpnm7qb28@import.calendar.google.com'
+            }
+    		});
+    		
+    	});
+    
+    </script>
 </body>
 
 </html>
