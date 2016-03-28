@@ -57,30 +57,33 @@
   
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
   
+  <script type="text/javascript">
+    
+  	$(document).ready(function() {
+      $("#blockedImage").error(function() {
+          var site = "YouTube"
+          document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
+            + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
+            + site + " is blocked. As part of this site uses items from " + site + ", " 
+            + "please contact your network administrator in order to view this page as intended.</div>";
+          var image_x = document.getElementById('blockedImage');
+          image_x.parentNode.removeChild(image_x);
+        });
+      if (window.location.protocol != "https:") {
+        document.getElementById('sitealerts').innerHTML += 
+          "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
+          + "unsecured connection. Please use " 
+          + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
+          + "to go to the secured website.</div>";
+      }
+  </script>
+  
   {% if page.hascal %}
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css" />
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.js"></script>
     <script type="text/javascript" src="fullcalendar/gcal.js"></script>
-    <script type="text/javascript">
-    
-    	$(document).ready(function() {
-        $("#blockedImage").error(function() {
-            var site = "YouTube"
-            document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
-              + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
-              + site + " is blocked. As part of this site uses items from " + site + ", " 
-              + "please contact your network administrator in order to view this page as intended.</div>";
-            var image_x = document.getElementById('blockedImage');
-            image_x.parentNode.removeChild(image_x);
-          });
-    		if (window.location.protocol != "https:") {
-    		  document.getElementById('sitealerts').innerHTML += 
-    		    "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
-    		    + "unsecured connection. Please use " 
-    		    + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
-    		    + "to go to the secured website.</div>"
-    		}
+    <script type="text/javascript"
     		$('#calendar').fullCalendar({
     			defaultDate: '{{ site.time | date: "%Y-%m-%d" }}',
     			defaultView: 'basicDay',
@@ -92,9 +95,9 @@
     		});
     		
     	});
-    
     </script>
   {% endif %}
+  
   <link rel="stylesheet" type="text/css" href="{{ site.github.url | replace_first:'http://','https://' }}/css/main.css" />
   <style>
     {% if page.overrideheader %}
