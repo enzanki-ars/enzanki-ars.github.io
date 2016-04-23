@@ -2,60 +2,38 @@
 layout: default
 ---
 
-<h1>About Me</h1>
+# About Me
 
-<i>I will be adding more this this page at a later time.</i>
+*I will be adding more this this page at a later time.*
 
-<h2>PGP Public Key</h2>
-<p>
-  In order to make sure that my emails are delivered as intended, 
-  I use Pretty Good Privacy (PGP) to sign/encrypt my emails.  My 
-  key is provided below.  I would highly suggest checking other 
-  sources as well to make sure that the key is shown correctly 
-  below, for example, by checking the following key servers.
-</p>
-<ul>
-  <li>
-    <a href="http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x32B91A35E65E2EB4">
-      Main public key server</a>
-  </li>
-  <li>
-    <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x32B91A35E65E2EB4">
-      MIT public key server</a>
-  </li>
-  <li>
-    <a href="http://keys.gnupg.net/pks/lookup?op=get&search=0x32B91A35E65E2EB4">
-      GNUPG public key server</a>
-  </li>
-</ul>
-<p>
-  You can also verify my identity at <a href="https://keybase.io/enzanki_ars">keybase.io/enzanki_ars</a>.
-</p>
-<p>
-  If you go to <a href="https://keybase.io/verify">keybase.io/verify</a> and paste my message,
-  keybase should return <code>Signed by enzanki_ars</code>.
-</p>
-<pre>
+## PGP Public Key
+
+In order to make sure that my emails are delivered as intended, I use Pretty
+Good Privacy (PGP) to sign/encrypt my emails.  Mykey is provided below.  I
+would highly suggest checking other sources as well to make sure that the key
+is shown correctly below, for example, by checking the following key servers.
+
+* [Main public key server](http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x32B91A35E65E2EB4)
+* [MIT public key server](https://pgp.mit.edu/pks/lookup?op=get&search=0x32B91A35E65E2EB4)
+* [GNUPG public key server](http://keys.gnupg.net/pks/lookup?op=get&search=0x32B91A35E65E2EB4)
+
+You can also verify my identity at <a href="https://keybase.io/enzanki_ars">keybase.io/enzanki_ars</a>.
+
+If you go to [https://keybase.io/verify](https://keybase.io/verify) and paste my message,
+Keybase should return `Signed by enzanki_ars`.
+
+```
 Fingerprint: E288 EE93 ADAD 6BF2 7466 87F9 32B9 1A35 E65E 2EB4
 Key ID:      32B9 1A35 E65E 2EB4
-</pre>
+```
 
-<p>
-  Copy and paste or download my public key below.
-</p>
-<strong>
-  Donwload links:
-</strong>
-<ul>
-  <li>
-    <a href="keybase.io/enzanki_ars/key.asc">keybase.io</a>
-  </li>
-  <li>
-    <a href="https://enzanki-ars.github.io/Alex_Shafer_0xE65E2EB4_pub.asc">enzanki-ars.github.io</a>
-  </li>
-</ul>
+Copy and paste or download my public key below.
+**Download links:**
 
-<pre>
+* [keybase.io](https://keybase.io/enzanki_ars/key.asc)
+* [enzanki-ars.github.io](https://enzanki-ars.github.io/Alex_Shafer_0xE65E2EB4_pub.asc)
+
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2
 
@@ -108,4 +86,4 @@ r2+oPVjpHgCw3ona4SCsJQjCzGXMqQjmYn9A8Ek+nDpBMQgtW4Tsjrr7wvSDqp8O
 kk8z5U35KcAhXqogXpnN
 =e2ei
 -----END PGP PUBLIC KEY BLOCK-----
-</pre>
+```

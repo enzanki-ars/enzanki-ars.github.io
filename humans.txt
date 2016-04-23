@@ -5,7 +5,6 @@
 
     Alex Shafer -- enzanki-ars
 
-
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, Bootstrap, jQuery, Modernizr, Initializr
+    HTML5, CSS3, Bootstrap, jQuery, Initializr
