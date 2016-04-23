@@ -9,60 +9,29 @@
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
-  <script src="/js/plugins.js"></script>
-  <script src="/js/main.js"></script>
-  <!-- Piwik -->
+  <!--<script src="/js/plugins.js"></script>-->
+  <!--<script src="/js/main.js"></script>-->
   <script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      _paq.push(['setTrackerUrl',  'https://api-840358342f526ff41f5cd035dc0639b3.oasis.sandstorm.io']);
-      _paq.push(['setSiteId', 1]);
-      _paq.push(['setApiToken', 'zDZwlCJVD4CwODtm7UI36UvlAgDbDDiyEMG9ofOLJLd']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://eq6v07x3dnmx9il518gm.oasis.sandstorm.io/embed.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
-  <!-- End Piwik Code -->
-  <script type="text/javascript">
-    
+
       $(document).ready(function() {
         $("#blockedImage").error(function() {
             var site = "YouTube"
-            document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
-              + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
-              + site + " is blocked. As part of this site uses items from " + site + ", " 
+            document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">"
+              + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where "
+              + site + " is blocked. As part of this site uses items from " + site + ", "
               + "please contact your network administrator in order to view this page as intended.</div>";
             var image_x = document.getElementById('blockedImage');
             image_x.parentNode.removeChild(image_x);
           });
         if (window.location.protocol != "https:") {
-          document.getElementById('sitealerts').innerHTML += 
+          document.getElementById('sitealerts').innerHTML +=
             "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
-            + "unsecured connection. Please use " 
-            + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> " 
+            + "unsecured connection. Please use "
+            + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> "
             + "to go to the secured website.</div>"
         }
       });
-    
-    </script>
-    <script type="text/javascript">
-      function loadSuccess() {
-        var div_x = document.getElementById('blockedInfo');
-        div_x.parentNode.removeChild(div_x);
-        var image_x = document.getElementById('blockedImage');
-        image_x.parentNode.removeChild(image_x);
-      }
-      
-      function loadError(site) {
-        document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">" 
-          + "<strong>" + site + " Blocked: </strong>You seem to be accessing this site from a location where " 
-          + site + " is blocked. As part of this site uses items from " + site + ", " 
-          + "please contact your network administrator in order to view this page as intended.</div>";
-        var image_x = document.getElementById('blockedImage');
-        image_x.parentNode.removeChild(image_x);
-      }
+
     </script>
 </body>
 
