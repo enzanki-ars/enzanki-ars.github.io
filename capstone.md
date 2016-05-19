@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include ytblock.html %}
+
 # Alex Shafer's Capstone for Hilliard Darby Class of 2016
 
 <ul class="list-group">
