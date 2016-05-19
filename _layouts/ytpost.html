@@ -3,14 +3,7 @@
 {% include postheader.html %}
 {% include postpages.html %}
 
-<hr>
-<div id="blockedInfo">
-  <span class="label label-warning">
-    Checking Youtube Access...
-    <img src="https://www.youtube.com/yt/brand/media/image/yt-brand-webmin.png" id="blockedImage" onload="loadSuccess()" onerror="loadError()" height="1px" width="1px">
-  </span>
-</div>
-<hr>
+{% include ytblock.html %}
 
 {{ content }}
 
