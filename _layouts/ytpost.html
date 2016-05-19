@@ -4,8 +4,10 @@
 {% include postpages.html %}
 
 <div id="blockedInfo">
-  <img src="https://www.youtube.com/yt/brand/media/image/yt-brand-webmin.png" id="blockedImage" onload="loadSuccess()" onerror="loadError()" height="1px" width="1px">
-  <span class="label label-warning">Checking Youtube Access...</span>
+  <span class="label label-warning">
+    Checking Youtube Access...
+    <img src="https://www.youtube.com/yt/brand/media/image/yt-brand-webmin.png" id="blockedImage" onload="loadSuccess()" onerror="loadError()" height="1px" width="1px">
+  </span>
 </div>
 
 {{ content }}
