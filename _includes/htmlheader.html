@@ -67,6 +67,11 @@
   <link rel="stylesheet" href="{{ site.github.url | replace_first:'http://','https://' }}/css/main.css">
 	
   <script data-cfasync="false">
+  function loadSuccess() {
+    document.getElementById("blockedInfo").remove();
+    var image_x = document.getElementById('blockedImage');
+    image_x.parentNode.removeChild(image_x);
+  }
   function loadError() {
     var site = "YouTube";
     document.getElementById("blockedInfo").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">"
