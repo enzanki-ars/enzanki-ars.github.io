@@ -2,6 +2,8 @@ title: "enzanki-ars"
 description: "enzanki-ars's Website"
 url: "https://enzanki-ars.github.io"
 
+repository: enzanki-ars/enzanki-ars.github.io
+
 gems:
   - jekyll-sitemap
   - jekyll-feed
