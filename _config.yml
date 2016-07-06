@@ -1,8 +1,31 @@
 title: "enzanki-ars"
 description: "enzanki-ars's Website"
-url: "https://enzanki-ars.github.io"
-
 repository: enzanki-ars/enzanki-ars.github.io
+
+header:
+  left-header:
+    - text: Home
+      internal-link: index.html
+    - text: Blog
+      internal-link: posts.html
+    - text: Capstone
+      internal-link: capstone.html
+    - text: Projects
+      dropdown:
+        - text: Darby AP US History Bracket Challenge
+          internal-link: dbybracketchallenge/
+
+  right-header:
+    - text: About Me
+      internal-link: about.html
+    - text: Privacy
+      internal-link: privacy.html
+    - text: Social
+      dropdown:
+        - text: GitHub
+          external-link: https://github.com/enzanki-ars
+        - text: Twitter
+          external-link: https://twitter.com/enzanki_ars
 
 gems:
   - jekyll-sitemap

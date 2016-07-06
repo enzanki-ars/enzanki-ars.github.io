@@ -2,60 +2,81 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                                                                                         aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
-                <img alt="Brand" src="{{ site.github.owner_gravatar_url }}" style="width: 20px; height: 20px; border-radius: 2px;">
-            </a>
-            <a class="navbar-brand" href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">{{ site.github.project_title }}</a>
+            {% if site.github.owner_gravatar_url %}
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="{{ site.github.owner_gravatar_url }}" style="width: 20px; height: 20px; border-radius: 2px;">
+                </a>
+            {% endif %}
+            {% if site.github.project_title %}
+                <a class="navbar-brand" href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">{{ site.github.project_title }}</a>
+            {% else %}
+                <a class="navbar-brand" href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">{{ site.title }}</a>
+            {% endif %}
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li>
-                    <a href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">Home</a>
-                </li>
-                <li>
-                    <a href="{{ site.github.url | replace_first:'http://','https://' }}/posts.html">Blog</a>
-                </li>
-                <li>
-                    <a href="{{ site.github.url | replace_first:'http://','https://' }}/capstone.html">Capstone</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                                                                             aria-expanded="false">Projects<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="{{ site.github.url | replace_first:'http://','https://' }}/dbybracketchallenge/">Darby AP US History Bracket Challenge</a>
+                {% for link in site.header.left-header %}
+                    {% if link.dropdown %}
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.text }}<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                {% for dropdown in link.dropdown %}
+                                    <li>
+                                        {% if dropdown.internal-link %}
+                                            <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ dropdown.internal-link }}">{{ dropdown.text }}</a>
+                                        {% else %}
+                                            <a href="{{ dropdown.external-link }}">{{ dropdown.text }}</a>
+                                        {% endif %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
                         </li>
-                    </ul>
-                </li>
+                    {% else %}
+                        <li>
+                            {% if dropdown.internal-link %}
+                                <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ link.internal-link }}">{{ link.text }}</a>
+                            {% else %}
+                                <a href="{{ link.external-link }}">{{ link.text }}</a>
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="{{ site.github.url | replace_first:'http://','https://' }}/about.html">About Me</a>
-                </li>
-                <li>
-                    <a href="{{ site.github.url | replace_first:'http://','https://' }}/privacy.html">Privacy</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                                                                             aria-expanded="false">Social <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="https://github.com/enzanki-ars">GitHub</a>
+                {% for link in site.header.right-header %}
+                    {% if link.dropdown %}
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.text }}<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                {% for dropdown in link.dropdown %}
+                                    <li>
+                                        {% if dropdown.internal-link %}
+                                            <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ dropdown.internal-link }}">{{ dropdown.text }}</a>
+                                        {% else %}
+                                            <a href="{{ dropdown.external-link }}">{{ dropdown.text }}</a>
+                                        {% endif %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
                         </li>
+                    {% else %}
                         <li>
-                            <a href="https://twitter.com/enzanki_ars">Twitter</a>
+                            {% if dropdown.internal-link %}
+                                <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ link.internal-link }}">{{ link.text }}</a>
+                            {% else %}
+                                <a href="{{ link.external-link }}">{{ link.text }}</a>
+                            {% endif %}
                         </li>
-                    </ul>
-                </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -63,4 +84,6 @@
     <!-- /.container-fluid -->
 </nav>
 <div class="container">
-    <div id="sitealerts"></div>
+    {% if site.alerts %}
+        <div class="alert alert-warning" role="alert">{{ site.alerts }}</div>
+    {% endif %}
