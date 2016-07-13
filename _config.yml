@@ -27,6 +27,8 @@ header:
         - text: Twitter
           external-link: https://twitter.com/enzanki_ars
 
+exclude: [vendor]
+
 gems:
   - jekyll-sitemap
   - jekyll-feed
