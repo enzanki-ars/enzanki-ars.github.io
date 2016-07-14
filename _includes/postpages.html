@@ -2,14 +2,14 @@
 	<ul class="pager">
 		{% if page.previous.url %}
 			<li class="previous">
-				<a href="{{ page.previous.url | prepend: site.github.url | replace_first:'http://','https://' }}">
+				<a href="{{ page.previous.url | prepend: site.github.url }}">
 					<i class="fa fa-arrow-left"></i>
 					Previous - [{{ page.previous.date | date: "%A, %B %d, %Y" }}: {{ page.previous.title }}]
 				</a>
 			</li>
 		{% else %}
 			<li class="previous disabled">
-				<a href="{{ page.previous.url | prepend: site.github.url | replace_first:'http://','https://' }}">
+				<a href="{{ page.previous.url | prepend: site.github.url }}">
 					<i class="fa fa-arrow-left"></i>
 					Previous
 				</a>
@@ -17,14 +17,14 @@
 		{% endif %}
 		{% if page.next.url %}
 			<li class="next">
-				<a href="{{ page.next.url | prepend: site.github.url | replace_first:'http://','https://' }}">
+				<a href="{{ page.next.url | prepend: site.github.url }}">
 					Next - [{{ page.next.date | date: "%A, %B %d, %Y" }}: {{ page.next.title }}]
 					<i class="fa fa-arrow-right"></i>
 				</a>
 			</li>
 		{% else %}
 			<li class="next disabled">
-				<a href="{{ page.next.url | prepend: site.github.url | replace_first:'http://','https://' }}">
+				<a href="{{ page.next.url | prepend: site.github.url }}">
 					Next 
 					<i class="fa fa-arrow-right"></i>
 				</a>
