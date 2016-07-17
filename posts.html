@@ -1,7 +1,7 @@
 ---
 layout: default
-redirect_from: /blog/
 ---
+
 <div class="table-responsive">
   <table class="table table-striped">
     <thead>
@@ -17,7 +17,7 @@ redirect_from: /blog/
           {{ post.date | date: "%A, %B %d, %Y" }}
         </td>
         <td>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url | prepend: site.github.url | replace_first:'http://','https://' }}">{{ post.title }}</a>
         </td>
       </tr>
       {% endfor %}

@@ -14,9 +14,9 @@
                 </a>
             {% endif %}
             {% if site.github.project_title %}
-                <a class="navbar-brand" href="{{ site.github.url }}/index.html">{{ site.github.project_title }}</a>
+                <a class="navbar-brand" href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">{{ site.github.project_title }}</a>
             {% else %}
-                <a class="navbar-brand" href="{{ site.github.url }}/index.html">{{ site.title }}</a>
+                <a class="navbar-brand" href="{{ site.github.url | replace_first:'http://','https://' }}/index.html">{{ site.title }}</a>
             {% endif %}
         </div>
 
@@ -31,7 +31,7 @@
                                 {% for dropdown in link.dropdown %}
                                     <li>
                                         {% if dropdown.internal-link %}
-                                            <a href="{{ site.github.url }}/{{ dropdown.internal-link }}">{{ dropdown.text }}</a>
+                                            <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ dropdown.internal-link }}">{{ dropdown.text }}</a>
                                         {% else %}
                                             <a href="{{ dropdown.external-link }}">{{ dropdown.text }}</a>
                                         {% endif %}
@@ -42,7 +42,7 @@
                     {% else %}
                         <li>
                             {% if link.internal-link %}
-                                <a href="{{ site.github.url }}/{{ link.internal-link }}">{{ link.text }}</a>
+                                <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ link.internal-link }}">{{ link.text }}</a>
                             {% else %}
                                 <a href="{{ link.external-link }}">{{ link.text }}</a>
                             {% endif %}
@@ -59,7 +59,7 @@
                                 {% for dropdown in link.dropdown %}
                                     <li>
                                         {% if dropdown.internal-link %}
-                                            <a href="{{ site.github.url }}/{{ dropdown.internal-link }}">{{ dropdown.text }}</a>
+                                            <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ dropdown.internal-link }}">{{ dropdown.text }}</a>
                                         {% else %}
                                             <a href="{{ dropdown.external-link }}">{{ dropdown.text }}</a>
                                         {% endif %}
@@ -70,7 +70,7 @@
                     {% else %}
                         <li>
                             {% if link.internal-link %}
-                                <a href="{{ site.github.url }}/{{ link.internal-link }}">{{ link.text }}</a>
+                                <a href="{{ site.github.url | replace_first:'http://','https://' }}/{{ link.internal-link }}">{{ link.text }}</a>
                             {% else %}
                                 <a href="{{ link.external-link }}">{{ link.text }}</a>
                             {% endif %}

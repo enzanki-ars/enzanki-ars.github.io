@@ -14,7 +14,7 @@
           document.getElementById('sitealerts').innerHTML +=
             "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
             + "unsecured connection. Please use "
-            + "<a href=\"{{ site.github.url }}\" class=\"alert-link\">this link</a> "
+            + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> "
             + "to go to the secured website.</div>";
           ga('send', 'event', "HTTPS Error", "Page loaded on unsecure connection");
         }
