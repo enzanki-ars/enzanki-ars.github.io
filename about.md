@@ -9,9 +9,11 @@ layout: default
 ## PGP Public Key
 
 In order to make sure that my emails are delivered as intended, I use Pretty
-Good Privacy (PGP) to sign/encrypt my emails.  Mykey is provided below.  I
-would highly suggest checking other sources as well to make sure that the key
-is shown correctly below, for example, by checking the following key servers.
+Good Privacy (PGP) to sign/encrypt my emails and my key is provided below.  
+
+I would *highly* suggest checking other sources as well to make sure that the key
+is shown correctly below, for example, by asking for my key's fingerprint when 
+you meet me in person and/or by checking the following key servers.
 
 * [Main public key server](http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x32B91A35E65E2EB4)
 * [MIT public key server](https://pgp.mit.edu/pks/lookup?op=get&search=0x32B91A35E65E2EB4)
@@ -24,7 +26,6 @@ Keybase should return `Signed by enzanki_ars`.
 
 ```
 Fingerprint: E288 EE93 ADAD 6BF2 7466 87F9 32B9 1A35 E65E 2EB4
-Key ID:      32B9 1A35 E65E 2EB4
 ```
 
 Copy and paste or download my public key below.
