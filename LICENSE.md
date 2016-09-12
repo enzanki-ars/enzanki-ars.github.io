@@ -1,3 +1,8 @@
+# Overview
+
+* [Content](#content) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+* [Code](#content) is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl.html)
+
 # Define
 
 * Content is defined as the text visible when viewed in your internet browser.
