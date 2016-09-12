@@ -8,7 +8,7 @@ header:
       internal-link: index.html
     - text: Blog
       internal-link: posts.html
-    - text: Capstone
+    - text: High School Capstone
       internal-link: capstone.html
     - text: Projects
       dropdown:
