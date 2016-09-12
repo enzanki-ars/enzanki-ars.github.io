@@ -7,8 +7,7 @@ Objective: Entry level job in field of Computer Science, specifically
 in programming and networking
 
 * Website: [https://enzanki-ars.github.io](https://enzanki-ars.github.io)
-* Cell: [redacted]
-* Email: [redacted]
+* Email:  shafer.alex@gmail.com
 * Twitter: @enzanki_ars
 * GitHub: enzanki-ars
 
