@@ -1,7 +1,7 @@
 # Alex Shafer's Website
 
-Checkout my blog for my experience at the [Ohio Supercomputer Center's Summer
-Institute](https://enzankiars.me/blog).
+Checkout my the capstone page for my experience at the [Ohio Supercomputer Center's Summer
+Institute](https://enzanki-ars.github.io/capstone.html).
 
 ---
 
