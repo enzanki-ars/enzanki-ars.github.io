@@ -6,7 +6,7 @@ layout: default
 Objective: Entry level job in field of Computer Science, specifically
 in programming and networking
 
-* Website: [https://enzankiars.me](https://enzankiars.me)
+* Website: [https://enzanki-ars.github.io](https://enzanki-ars.github.io)
 * Cell: [redacted]
 * Email: [redacted]
 * Twitter: @enzanki_ars
@@ -26,7 +26,7 @@ in programming and networking
 
 * Ohio Supercomputer Center's Summer Institute
   * Part of the Networking subgroup.
-  * Documented experience though blog, available at [https://enzankiars.me/blog](https://enzankiars.me/blog)
+  * Documented experience for high school's capstone, available at [https://enzanki-ars.github.io/capstone.html](https://enzanki-ars.github.io/capstone.html)
 * Vice-President for Explorers Post 891
 * Communications Officer for Hilliard Darby Computer Club
 * Hilliard Darby's "Genius Bar"
