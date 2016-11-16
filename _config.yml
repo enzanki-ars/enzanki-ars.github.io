@@ -8,6 +8,8 @@ header:
       internal-link: index.html
     - text: Blog
       internal-link: posts.html
+    - text: Live Video (Offair)
+      internal-link: live.html
     - text: High School Capstone
       internal-link: capstone.html
     - text: Projects
