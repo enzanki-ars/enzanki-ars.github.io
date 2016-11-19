@@ -9,7 +9,7 @@
 
         {% seo %}
 
-        <script src="{{ site.github.url }}/js/rollbar.js"></script>
+        <script src="{{ site.github.url | replace_first:'http://','https://' }}/js/rollbar.js"></script>
 
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
         <link rel="apple-touch-icon" href="{{ site.github.url }}/icons/apple-touch-icon.png">
@@ -21,10 +21,10 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/{{ site.data.versions.bootstrap }}/{{ page.theme | default: site.theme }}/bootstrap.min.css" crossorigin="anonymous">
         {% endif %}
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.data.versions.font-awesome }}/css/font-awesome.min.css" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
+        <link rel="stylesheet" href="{{ site.github.url | replace_first:'http://','https://' }}/css/main.css">
 
         {% if page.live-reload %}
-            <script src="{{ site.github.url }}/js/live.js"></script>
+            <script src="{{ site.github.url | replace_first:'http://','https://' }}/js/live.js"></script>
         {% endif %}
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/{{ site.data.versions.timeago }}/jquery.timeago.min.js"></script>
@@ -33,20 +33,6 @@
         {% endif %}
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.min.js"></script>
-
-        {% if page.noheader == null %}
-        <style>
-          body {
-            margin-top: 55px;
-          }
-          :target:before, .thumbnail:before {
-            content:"";
-            display:block;
-            height:55px; /* fixed header height*/
-            margin:-55px 0 0; /* negative fixed header height */
-          }
-        </style>
-        {% endif %}
 
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/{{ site.data.versions.modernizer }}/modernizr.min.js"></script> -->
     </head>
