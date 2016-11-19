@@ -1,3 +1,6 @@
+---
+---
+ 
  /*
   Live.js - One script closer to Designing in the Browser
   Written for Handcraft.com by Martin Kool (@mrtnkl).
@@ -27,7 +30,7 @@
       pendingRequests = {},
       currentLinkElements = {},
       oldLinkElements = {},
-      interval = 1000,
+      interval = {{ page.live-reload-time | default: site.live-reload-time | default: 5000 }},
       loaded = false,
       active = { "html": 1, "css": 1, "js": 1 };
 
@@ -201,7 +204,8 @@
     getHead: function (url, callback) {
       pendingRequests[url] = true;
       var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XmlHttp");
-      xhr.open("HEAD", url, true);
+      xhr.open("HEAD", url + "?reloadtime=" + new Date().getTime(), true);
+      xhr.setRequestHeader("Cache-Control", "no-cache");
       xhr.onreadystatechange = function () {
         delete pendingRequests[url];
         if (xhr.readyState == 4 && xhr.status != 304) {

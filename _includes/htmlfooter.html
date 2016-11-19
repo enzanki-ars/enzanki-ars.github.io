@@ -1,26 +1,6 @@
-  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-  
-  <!--<script src="/js/plugins.js"></script>-->
-  <!--<script src="/js/main.js"></script>-->
-  <script type="text/javascript">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.data.versions.bootstrap }}/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-      $(document).ready(function() {
-        $(".marquee")
-          .css("animation-duration", ($(window).width() + $(".marquee").width()) / 30 + "s")
-        console.log(($(window).width() + $(".marquee").width()) / 30);
-        console.log("Commit: {{ site.github.build_revision }}");
-        ga('send', 'event', "Version", "{{ site.github.build_revision }}");
-        if (window.location.protocol != "https:") {
-          document.getElementById('sitealerts').innerHTML +=
-            "<div class=\"alert alert-danger\" role=\"alert\"><strong>DANGER:</strong> You are accessing this site over an "
-            + "unsecured connection. Please use "
-            + "<a href=\"{{ site.github.url | replace_first:'http://','https://' }}\" class=\"alert-link\">this link</a> "
-            + "to go to the secured website.</div>";
-          ga('send', 'event', "HTTPS Error", "Page loaded on unsecure connection");
-        }
-      });
-
-    </script>
+  <script src="{{ site.github.url }}/js/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+ENVIRONMENT=production
+username=`git log --pretty=format:"%cn" -1`
+
+curl https://api.rollbar.com/api/1/deploy/ \
+  -F access_token=$ACCESS_TOKEN \
+  -F environment=$ENVIRONMENT \
+  -F revision=$TRAVIS_COMMIT \
+  -F local_username=$LOCAL_USERNAME

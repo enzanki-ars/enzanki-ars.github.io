@@ -2,32 +2,18 @@ title: "enzanki-ars"
 description: "enzanki-ars's Website"
 repository: enzanki-ars/enzanki-ars.github.io
 
-header:
-  left-header:
-    - text: Home
-      internal-link: index.html
-    - text: Blog
-      internal-link: posts.html
-    - text: Live Video (Offair)
-      internal-link: live.html
-    - text: High School Capstone
-      internal-link: capstone.html
-    - text: Projects
-      dropdown:
-        - text: Darby AP US History Bracket Challenge
-          internal-link: dbybracketchallenge/
+author:
+  twitter: enzanki_ars
 
-  right-header:
-    - text: About Me
-      internal-link: about.html
-    - text: Privacy
-      internal-link: privacy.html
-    - text: Social
-      dropdown:
-        - text: GitHub
-          external-link: https://github.com/enzanki-ars
-        - text: Twitter
-          external-link: https://twitter.com/enzanki_ars
+twitter:
+  username: enzanki_ars
+
+social:
+  links:
+    - https://twitter.com/enzanki_ars
+
+timezone: America/New_York
+encoding: utf-8
 
 exclude: [vendor]
 
@@ -35,3 +21,5 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-seo-tag

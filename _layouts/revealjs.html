@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    {% feed_meta %}
+
+    {% seo %}
+
+    <script src="{{ site.github.url }}/js/rollbar.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.data.versions.bootstrap }}/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.versions.revealjs }}/css/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.versions.revealjs }}/css/theme/{{ page.revealjs-theme | default: site.revealjs-theme | default: 'black' }}.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.versions.revealjs }}/lib/css/zenburn.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.data.versions.font-awesome }}/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-{{ site.data.versions.jquery }}.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/{{ site.data.versions.timeago }}/jquery.timeago.min.js"></script>
+
+    <style>
+      ul.fa-ul {
+        list-style-type: none;
+      }
+    </style>
+
+    {% if page.live-reload %}
+      <script src="{{ site.github.url }}/js/live.js"></script>
+    {% endif %}
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        {{ content }}
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.versions.revealjs }}/lib/js/head.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.versions.revealjs }}/js/reveal.min.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: false,
+        autoSlide: 10000,
+        loop: true,
+        width: 1280,
+        height: 720,
+        transitionSpeed: 'slow',
+        dependencies: [
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/markdown/marked.min.js' },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/markdown/markdown.min.js' },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.min.js', async: true },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+      jQuery(document).ready(function() {
+        jQuery("time.timeago").timeago();
+        jQuery.timeago.settings.allowFuture = true;
+      });
+    </script>
+  </body>
+</html>

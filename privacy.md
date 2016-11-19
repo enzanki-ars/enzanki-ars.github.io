@@ -10,5 +10,5 @@ visitors. If you would like to optout, please visit the following sites:
  * **Twitter:** (Theoretically disabled...) [Opt-Out](https://support.twitter.com/articles/20169453)
  * **YouTube:** [Opt-Out](https://support.google.com/ads/answer/2662922?hl=en)
  * **Google Analytics:** [Opt-Out](https://tools.google.com/dlpage/gaoptout)
- * **Cloudflare:** No known opt-out...
+ * **Rollbar:** No known optout - Only information collected is browser version, plugins enabled, and any javascript errors.
  * **GitHub Pages:** No known information collected...
