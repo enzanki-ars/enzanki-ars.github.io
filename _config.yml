@@ -15,6 +15,16 @@ social:
 timezone: America/New_York
 encoding: utf-8
 
+collections:
+  - tutorials
+
+defaults:
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: post
+
 exclude: [vendor]
 
 gems:
