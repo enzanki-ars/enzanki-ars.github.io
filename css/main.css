@@ -1,45 +1,48 @@
-body {
-	padding-top: 75px;
-	padding-bottom: 20px;
-}
-:target:before, .thumbnail:before {
-	content:"";
-	display:block;
-	height:70px; /* fixed header height*/
-	margin:-70px 0 0; /* negative fixed header height */
-}
+// Code below is modified from http://stackoverflow.com/a/38118591/6820516
 
-/*
- * Row with equal height columns
- * --------------------------------------------------
- */
-.row-eq-height {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display:         flex;
-}
-/* Make it a marquee */
 .marquee {
-	width: 100%;
-	white-space: nowrap;
-	box-sizing: border-box;
-	animation-name: marquee;
-	animation-duration: 20s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	position: absolute;
+  width: 100%;
+  left: 0px;
+  position: fixed;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.marquee:hover {
-	animation-play-state: paused
+.marquee p {
+  display: inline-block;
+  padding-left: 100%;
+  text-indent: 0;
+  animation: marquee linear infinite;
 }
 
-/* Make it move */
 @keyframes marquee {
-	0% {
-		left: 100%
-	}
-	100% {
-		left: -100%
-	}
+  0% {
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
+
+// End modified code.
+
+// Code below is modified from http://codepen.io/ashblue/pen/mCtuA/
+
+.table-editable {
+  position: relative;
+}
+
+.table-remove {
+  color: #700;
+  cursor: pointer;
+}
+
+.table-add {
+  color: #070;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+// End modified code.

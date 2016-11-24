@@ -55,3 +55,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+# Exported release files
+template.zip
+template-upgrade.zip

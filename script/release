@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+git archive --format zip --output template.zip HEAD
+cp template.zip template-upgrade.zip
+zip -d template-upgrade.zip _data/debug.yml _data/header.yml icons/* \
+  _config.yml browserconfig.xml favicon.ico humans.txt index.html \
+  manifest.json README.md
