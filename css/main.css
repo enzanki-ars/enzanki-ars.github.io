@@ -1,3 +1,14 @@
+body {
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+:target:before, .thumbnail:before {
+  content: "";
+  display: block;
+  height: 55px; /* fixed header height*/
+  margin: -55px 0 0; /* negative fixed header height */
+}
+
 // Code below is modified from http://stackoverflow.com/a/38118591/6820516
 
 .marquee {
