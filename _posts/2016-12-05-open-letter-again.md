@@ -16,7 +16,7 @@ the newest removal of the Messages app.
 
 ---
 
-Until yesterday, all student iPads had the capacity to send and receive
+Until Monday (12/5/2016), all student iPads had the capacity to send and receive
 iMessages, an easy to use platform for students to ask questions and receive
 help from their classmates. Today, students and parents received the following
 message:
@@ -33,7 +33,7 @@ classroom utility, but as a networking platform for the students. One of the
 most important use cases of this iMessage platform was the ability for students
 to ask questions and receive quick help from their peers.
 
-With the iMessage platform, students were able to  receive help almost
+With the iMessage platform, students were able to receive help almost
 immediately after requesting it from friends and classmates, instead of waiting
 for an email from a potentially busy teacher. If students could help each other
 in class, they should be able to do the same at home.
