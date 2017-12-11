@@ -5,6 +5,6 @@ youtube-video-id: qIX-v1sKFcw
 categories:
   - video
   - tutorial
-  - worklow-tutorial
+  - workflow-tutorial
   - workflow-tutorial-obs
 ---

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h2>Categories</h2>
+
 <ul>
   {% for category in site.categories %}
     <li><a href="{{ site.github.url }}/category/{{ category | first }}.html">{{ category | first }}</a></li>
