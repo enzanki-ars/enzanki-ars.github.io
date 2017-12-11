@@ -1,12 +1,12 @@
 left-header:
   - text: Home
     internal-link: index.html
-  - text: Blog
+  - text: Posts
     internal-link: posts.html
   - text: Live Video (Offair)
     internal-link: live.html
   - text: High School Capstone
-    internal-link: capstone.html
+    internal-link: darby-capstone.html
   - text: Projects
     dropdown:
       - text: Darby AP US History Bracket Challenge
@@ -23,3 +23,5 @@ right-header:
         external-link: https://github.com/enzanki-ars
       - text: Twitter
         external-link: https://twitter.com/enzanki_ars
+      - text: YouTube
+        external-link: https://www.youtube.com/channel/UCqYpaBsSaCm_6VID0vDsgiA
