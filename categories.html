@@ -4,6 +4,6 @@ layout: default
 
 <ul>
   {% for category in site.categories %}
-   <li><a href="{{ site.github.url }}/category/{{ category }}.html">{{ category }}</a></li>
+    <li><a href="{{ site.github.url }}/category/{{ category | first }}.html">{{ category | first }}</a></li>
   {% endfor %}
 </ul>
