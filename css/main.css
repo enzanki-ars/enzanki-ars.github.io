@@ -9,7 +9,13 @@ body {
   margin: -55px 0 0; /* negative fixed header height */
 }
 
-// Code below is modified from http://stackoverflow.com/a/38118591/6820516
+.navbar-brand.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+/* Code below is modified from http://stackoverflow.com/a/38118591/6820516 */
 
 .marquee {
   width: 100%;
@@ -35,9 +41,9 @@ body {
   }
 }
 
-// End modified code.
+/* End modified code.*/
 
-// Code below is modified from http://codepen.io/ashblue/pen/mCtuA/
+/* Code below is modified from http://codepen.io/ashblue/pen/mCtuA/ */
 
 .table-editable {
   position: relative;
@@ -56,4 +62,4 @@ body {
   right: 0;
 }
 
-// End modified code.
+/* End modified code. */

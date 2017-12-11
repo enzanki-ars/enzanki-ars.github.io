@@ -10,7 +10,7 @@
       </button>
       {% if site.github.owner_gravatar_url %}
         <a class="navbar-brand" href="#">
-          <img alt="Brand" src="{{ site.github.owner_gravatar_url }}" style="width: 20px; height: 20px; border-radius: 2px;">
+          {% avatar site.github.owner_gravatar_url size=5 %}
         </a>
       {% endif %}
       {% if site.title %}
@@ -19,7 +19,7 @@
         <a class="navbar-brand" href="{{ site.github.url }}/index.html">{{ site.title }}</a>
       {% endif %}
     </div>
-    
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
