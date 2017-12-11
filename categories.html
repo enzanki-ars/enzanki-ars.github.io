@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<ul>
+  {% for category in site.categories %}
+   <li><a href="{{ site.github.url }}/category/{{ category }}.html">{{ category }}</a></li>
+  {% endfor %}
+</ul>

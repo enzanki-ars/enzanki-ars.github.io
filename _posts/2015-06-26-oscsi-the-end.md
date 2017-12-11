@@ -1,6 +1,9 @@
 ---
 layout: ytpost
 title: OSCSI - The End
+categories:
+  - blog
+  - oscsi
 ---
 
 Sad to see the end of our two weeks at the Summer Institute, but I enjoyed my time
@@ -10,7 +13,7 @@ to view the video without the slides, click <a href="https://www.youtube.com/emb
 target="video">here</a>. Both video options are available below. If you would
 like to view our presentation separately, it is available
 <a href="https://docs.google.com/presentation/d/1cDQsJsc1zLefQzSubo47e5MjTkTNWgNZr3Y_ImRFcXA/present?slide=id.p">here</a>.
-	
+
 During these two weeks, I also took many pictures, but did not want to clutter the
 blog post too much. If you would like to see all of the pictures I took, they
 are available

@@ -3,6 +3,9 @@ layout: post
 title: Another Open Letter to the Hilliard City School District
 image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Internet-mail.svg/480px-Internet-mail.svg.png'
 description: In response to the recent iMesaage policy changes, again.
+categories:
+  - blog
+  - open-letter
 ---
 
 Dear Hilliard City School District Administrators,

@@ -3,6 +3,9 @@ layout: post
 title: An Open Letter to the Hilliard City School District
 image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Internet-mail.svg/480px-Internet-mail.svg.png'
 description: In response to the recent iMesaage policy changes.
+categories:
+  - blog
+  - open-letter
 ---
 
 _In response to the [recent iMessage policy changes](http://www.hilliardschools.org/teens-and-the-internet-the-power-and-pitfalls-of-a-digital-life/)._

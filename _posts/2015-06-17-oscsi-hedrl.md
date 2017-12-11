@@ -1,6 +1,9 @@
 ---
 layout: ytpost
 title: OSCSI - High Energy Density Research Lab
+categories:
+  - blog
+  - oscsi
 ---
 
 Today, we toured the High Energy Density Research Lab where they fire a very powerful
