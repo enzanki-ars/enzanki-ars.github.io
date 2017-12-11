@@ -10,7 +10,7 @@
       </button>
       {% if site.github.owner_gravatar_url %}
         <a class="navbar-brand" href="#">
-          {% avatar site.github.owner_gravatar_url size=5 %}
+          {% avatar {{ site.github.owner_gravatar_url }} size=20 %}
         </a>
       {% endif %}
       {% if site.title %}
