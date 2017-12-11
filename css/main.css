@@ -9,7 +9,7 @@ body {
   margin: -55px 0 0; /* negative fixed header height */
 }
 
-.navbar-brand.avatar {
+.navbar-brand>.avatar {
   border-radius: 2px;
 }
 
