@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - Welcome
+categories:
+  - blog
+  - oscsi
 ---
 
 Welcome! First post on my blog here, and first day at the <a href="https://www.osc.edu/education/si"> Ohio Supercomputer

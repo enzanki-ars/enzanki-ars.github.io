@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - OARNet Tour
+categories:
+  - blog
+  - oscsi
 ---
 
 <h2>6-18-2015: Thursday</h2>
@@ -11,7 +14,7 @@ The amount of data passed though OARNet and power used is staggering. After a
 tour of OARNet, we continued learning how to connect multiple switches together
 as shown below.
 
-<img src="{{ site.url }}/img/2switchconfigdia.png" alt="Picture of Switch Configuration" 
+<img src="{{ site.url }}/img/2switchconfigdia.png" alt="Picture of Switch Configuration"
 class="img-responsive">
 
 I have been holding off on posting about what we do at the dorms until now, but I

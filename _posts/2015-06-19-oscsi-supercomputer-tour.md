@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - Supercomputer Tours
+categories:
+  - blog
+  - oscsi
 ---
 
 We finished our training for creating and connecting switches. After saving the configuration

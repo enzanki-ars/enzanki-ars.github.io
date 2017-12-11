@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - The Byrd Polar and Climate Research Center
+categories:
+  - blog
+  - oscsi
 ---
 
 Let me start off by first saying that -30&deg;F is very cold. But more about that

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - Networking Intro
+categories:
+  - blog
+  - oscsi
 ---
 
 I am now a part of the networking project group. After an introduction to MATLAB,
@@ -9,7 +12,7 @@ by Vilas Winstein below), we started on our project training. During our trainin
 time, we discussed the binary numbering system. We also discussed how to convert
 from binary to hexadecimal in order to determine why IP addresses are written
 the way they are. Tomorrow, we will investigate how networks operate.
-	
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck">
 	<p lang="en" dir="ltr">
 		Windows logo graphed in MATLAB <a href="https://twitter.com/hashtag/OSCSI2015?src=hash">#OSCSI2015</a>

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - A Work in Progress
+categories:
+  - blog
+  - oscsi
 ---
 
 Today we focused on finalizing our "project" and starting on our presentation. I

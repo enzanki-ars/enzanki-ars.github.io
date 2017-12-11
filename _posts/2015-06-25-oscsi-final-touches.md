@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - Final Touches
+categories:
+  - blog
+  - oscsi
 ---
 
 Today we visited OSU's Center for Automotive Research. I did not realize that OSU

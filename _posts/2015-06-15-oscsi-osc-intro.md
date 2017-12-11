@@ -1,6 +1,9 @@
 ---
 layout: ytpost
 title: OSCSI - Ohio Supercomputer Center Intro
+categories:
+  - blog
+  - oscsi
 ---
 
 Another exciting day at the Summer Institute. To start the day, we had an introduction

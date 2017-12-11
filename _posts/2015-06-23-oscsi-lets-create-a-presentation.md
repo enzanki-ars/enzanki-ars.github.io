@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OSCSI - Let's Create a Presentation!
+categories:
+  - blog
+  - oscsi
 ---
 
 It was another day of breaking then fixing things. We continued learning about router

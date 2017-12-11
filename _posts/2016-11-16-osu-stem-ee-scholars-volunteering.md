@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "OSU STEM EE Scholars - Volunteering"
+categories:
+  - blog
+  - osu
+  - osu-stemee
 ---
 
 ## Explorer's Post 891
