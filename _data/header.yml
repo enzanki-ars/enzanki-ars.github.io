@@ -11,6 +11,12 @@ left-header:
     dropdown:
       - text: Darby AP US History Bracket Challenge
         internal-link: dbybracketchallenge/
+      - text: Videos
+        internal-link: category/video.html
+      - text: OSU ENGR 1182 AEV Project
+        external-link: https://u.osu.edu/engr1182spring2017class7219teamc/
+      - text: Rocket League Minimap Generator
+        external-link: https://github.com/enzanki-ars/rocket-league-minimap-generator
 
 right-header:
   - text: About Me
