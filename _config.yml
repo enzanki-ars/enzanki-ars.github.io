@@ -27,7 +27,7 @@ defaults:
 
 exclude: [vendor]
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
