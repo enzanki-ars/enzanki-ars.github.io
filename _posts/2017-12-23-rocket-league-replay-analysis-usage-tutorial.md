@@ -23,6 +23,15 @@ Before running the tool, there are a couple of requirements.
   - Windows: `Documents\My Games\Rocket League\TAGame\Demos`
   - macOS: `Library/Application Support/Rocket League/TAGame/Demos`
   - Linux: `$HOME/.local/share/Rocket League/TAGame/Demos`
+- Install [FFmpeg](https://ffmpeg.org/download.html)
+  - Windows: Make sure to add it to the path.
+    1. Copy the path of the folder you installed FFmpeg to in explorer while in the "bin" pat
+    2. Open the start menu (or Cortana...) and search for "Environment Variables"
+    3. Select "Edit the system environment variables"
+    4. Select "Environment Variables..." at the bottom of the window.
+    5. In the "User Variables" section, click on "Path" and select "Edit"
+    6. Click new and paste the FFmpeg path.  Make sure it ends with `bin`,
+    otherwise reread line 1.
 - Download [RocketLeagueReplayParser](https://github.com/jjbott/RocketLeagueReplayParser/releases)
   - Linux/Mac Only: I am not certain this tool works on this platform. The
   README claims that it does not, but I doubt this... I will update this
