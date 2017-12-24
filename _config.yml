@@ -19,6 +19,8 @@ encoding: utf-8
 
 exclude: [vendor]
 
+permalink: /:year/:month/:day/:title.html
+
 plugins:
   - jekyll-sitemap
   - jekyll-feed
