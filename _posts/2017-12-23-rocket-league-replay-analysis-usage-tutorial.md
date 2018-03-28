@@ -9,6 +9,14 @@ categories:
   - tutorial
 ---
 
+# Warning
+
+Well, I forgot to test on a computer other than my own when creating the
+program... These instructions don't work, and I am adjusting the program to
+make everything easier.  Sorry folks.
+
+## Intro
+
 Want to create better replay videos of your favorite Rocket League matches?
 Want to show data in the final video such as throttle input, steering input,
 scoreboard, possession, pressure, and more? Here is how, using the
