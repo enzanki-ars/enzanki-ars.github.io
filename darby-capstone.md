@@ -67,7 +67,7 @@ a network while working within a group and a better understanding of some of
 the challenges in creating and operating a network.
 
 For our final project, we created two set of networks and connected them as described
-in the [blog](/blog). While we were unable to complete
+in the [blog](/category/oscsi). While we were unable to complete
 the network, I felt like our project was a success as we were able to apply
 many of the basic networking protocols.
 
