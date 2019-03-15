@@ -1,7 +1,7 @@
 # Alex Shafer's Website
 
 Checkout my the capstone page for my experience at the [Ohio Supercomputer Center's Summer
-Institute](https://enzanki-ars.github.io/capstone.html).
+Institute](https://enzanki-ars.github.io/darby-capstone.html).
 
 ## License
 
