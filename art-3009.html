@@ -4,14 +4,13 @@ layout: default
 
 <h3>Art 3009 - Final Project</h3>
 
+<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
 
 <div class="embed-responsive embed-responsive-16by9">
 	<video-js id="my-video" class="embed-responsive-item vjs-default-skin" preload="auto" controls playsinline>
 	    <source src="https://storage.googleapis.com/enzanki_ars_videos/segments/final-version-main.m3u8" type="application/x-mpegURL">
 	</video-js>
 </div>
-
-<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
 
 <script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
 
@@ -53,7 +52,7 @@ layout: default
 			this.controlText("Switch Video Source");
 			var button = this.getChild('SwitchVideoMenu');
 			button.addClass('fas');
-			button.addClass('fa-video-plus');
+			button.addClass('fa-film');
 		},
 		
 		createItems: function() { 
