@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<h3>Art 3009 - Final Project</h3>
+
+
+<video-js id="my-video" class="embed-responsive-item vjs-default-skin" preload="auto" controls playsinline>
+    <source src="https://storage.googleapis.com/enzanki_ars_videos/segments/final-version-main.m3u8" type="application/x-mpegURL">
+</video-js>
+
+<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+
+	<script>
+	var player = videojs('my-video', {
+		enableSourceset: true
+	});
+	var MenuButton = videojs.getComponent('MenuButton');
+	var MenuItem = videojs.getComponent('MenuItem');
+
+	var changeTime = 0;
+
+	player.on('sourceset', function() {
+		player.currentTime(changeTime);
+		player.play();
+	});
+
+	var SwitchVideoItem = videojs.extend(MenuItem, {
+		constructor: function(player, options) {
+			MenuItem.apply(this, arguments);
+			
+			console.log(options);
+			
+			this.label = options['label'];
+			this.src = options['src'];
+		},
+		
+		handleClick: function() {
+			var currentTime = player.currentTime();
+			changeTime = currentTime;
+			player.src(this.src);
+			player.play();
+		}
+	});
+
+	var SwitchVideoMenu = videojs.extend(MenuButton, {
+		constructor: function(player, options) {
+			MenuButton.apply(this, arguments);
+			this.controlText("Switch Video Source");
+			var button = this.getChild('SwitchVideoMenu');
+			button.addClass('fa');
+			button.addClass('fa-video-camera');
+		},
+		
+		createItems: function() { 
+			items = [];
+			
+			items.push(new SwitchVideoItem(this, {
+				label: 'Main Video',
+				src: 'https://storage.googleapis.com/enzanki_ars_videos/segments/final-version-main.m3u8'
+			}));
+			items.push(new SwitchVideoItem(this, {
+				label: 'Focus - Switched/NBC',
+				src: 'https://storage.googleapis.com/enzanki_ars_videos/segments/final-version-switched-nbc.m3u8'
+			}));
+			items.push(new SwitchVideoItem(this, {
+				label: 'Focus - Split/IMSA',
+				src: 'https://storage.googleapis.com/enzanki_ars_videos/segments/final-version-split-imsa.m3u8'
+			}));
+			
+			return items;
+		}
+	});
+
+	videojs.registerComponent('SwitchVideoMenu', SwitchVideoMenu);
+	player.getChild('controlBar').addChild('SwitchVideoMenu', {}, 6);
+
+	</script>
