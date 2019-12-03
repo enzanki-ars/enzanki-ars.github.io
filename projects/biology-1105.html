@@ -62,7 +62,10 @@ layout: full-width
 </div>
 
 <script>
-	var cards = {{ site.data.projects.biology-1105.cards | jsonify }}
+	{% assign timestamps = site.data.projects.biology-1105.cards | map: "time" %}
+
+	var timestamps = {{ timestamps | jsonify }};
+	var start_card_id = 0;
 
 	var tag = document.createElement('script');
 
@@ -98,9 +101,10 @@ layout: full-width
 	function onProgress(videotime) {
 		//console.log(videotime);
 
-		for (var i=0; i < cards.length; i++) {
-			if (player.getCurrentTime() >= cards[i].time) {
+		for (var i=start_card_id; i < timestamps.length; i++) {
+			if (player.getCurrentTime() >= timestamps[i]) {
 				document.getElementById("enhanced-card-" + i).classList.add("fade-in");
+				start_card_id = i;
 			}
 		}
 	}
