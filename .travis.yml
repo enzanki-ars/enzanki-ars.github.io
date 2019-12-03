@@ -4,11 +4,6 @@ rvm:
   - 2.3.0
 script:
   - bash ./script/cibuild
-deploy:
-  provider: script
-  script: bash ./script/rollbar
-  on:
-    branch: master
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
