@@ -51,8 +51,7 @@ layout: default
 			MenuButton.apply(this, arguments);
 			this.controlText("Switch Video Source");
 			var button = this.getChild('SwitchVideoMenu');
-			button.addClass('fa');
-			button.addClass('fa-video-camera');
+			this.el().getElementsByClassName('vjs-icon-placeholder')[0].innerHTML = "<i class=\"fas fa-video\"></i>";
 		},
 		
 		createItems: function() { 
