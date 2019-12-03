@@ -1,0 +1,111 @@
+---
+layout: full-width
+---
+
+<style>
+.fade-in {
+  animation-name: fade-in-animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-animation {
+	from {
+		opacity: 0;
+		height: 0;
+		margin: 0em;
+	}
+	to {
+		opacity: 1;
+		height: unset;
+		margin: 1em;
+	}
+}
+</style>
+
+<h3>Biology 1105 - Final Project</h3>
+<div class="row">
+	<div class="col-lg-8">
+		<div class="embed-responsive embed-responsive-16by9">
+			<div class="embed-responsive-item" id="player"></div>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div style="height: calc(((66.7vw/16)*9)); overflow-y: scroll;">
+			{% for card in site.data.projects.biology-1105.cards reversed %}
+			<div class="card" style="margin: 0em; opacity: 0; height: 0;" id="enhanced-card-{{ site.data.projects.biology-1105.cards.size | minus: forloop.index }}">
+				<div class="card-header">
+					<div class="media">
+						<img src="{{ card.header.image }}" class="mr-2 rounded-sm" style="height: 1.5rem; width: 1.5rem;">
+						<div class="media-body">
+							<h5 class="mt-0">{{ card.header.text }}</h5>
+						</div>
+					</div>
+				</div>
+				{% if card.image %}
+				<img src="{{card.image.url}}" class="card-img-top" alt="{{card.image.alt}}">
+				{% endif %}
+				<div class="card-body">
+					{% for body_text in card.body.p %}
+					<p class="card-text">
+						{{ body_text | markdownify }}
+					</p>
+					{% endfor %}
+				</div>
+				<div class="card-footer text-muted">
+					<a href="#" onClick="setTime({{card.time}})">{{card.time | to_integer | date: "%M:%S"}}</a>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<script>
+	var cards = {{ site.data.projects.biology-1105.cards | jsonify }}
+
+	var tag = document.createElement('script');
+
+	tag.src = "https://www.youtube.com/iframe_api";
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	var player;
+	function onYouTubeIframeAPIReady() {
+		player = new YT.Player('player', {
+			videoId: 'SUelbSa-OkA',
+			autoplay: 0,
+			enablejsapi: 1,
+			fs: 0,
+			modestbranding: 1,
+			playsinline: 1,
+			rel: 0,
+			events: {
+				'onReady': onPlayerReady
+			}
+		});
+	}
+
+	function onPlayerReady(event) {
+		function updateTime() {
+			var videotime = player.getCurrentTime();
+			
+			onProgress(videotime);
+		}
+		timeupdater = setInterval(updateTime, 500);
+	}
+
+	function onProgress(videotime) {
+		//console.log(videotime);
+
+		for (var i=0; i < cards.length; i++) {
+			if (player.getCurrentTime() >= cards[i].time) {
+				document.getElementById("enhanced-card-" + i).classList.add("fade-in");
+			}
+		}
+	}
+
+	function setTime(time) {
+		player.seekTo(time);
+	}
+</script>

@@ -1,0 +1,78 @@
+cards:
+  - time: 00:00
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Melodysheep
+    body:
+      p:
+        - Original video available at [https://www.youtube.com/watch?v=SUelbSa-OkA]()
+        - Soundtrack available at [https://melodysheep.bandcamp.com/album/life-beyond-chapter-1-original-soundtrack]()
+  - time: 00:08
+    header:
+      image: /img/profile.jpeg
+      text: Enhanced Version
+    body:
+      p:
+        - This is an enhanced version designed for educational purposes.
+        - Enhanced Version created by Alex Shafer (enzanki_ars)
+  - time: 00:27
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l79GR-ZMtPZ-fQyTI_4kGdIm1BfUTsbRBk57JA=s88-c-k-c0xffffffff-no-rj-mo
+      text: Naration
+    body:
+      p:
+        - "Naration from National Film Board: Universe"
+        - Directed by Roman Kroitor, Colin Low - 1960
+        - "Video: [https://youtu.be/48gIN4hGOdI?t=1530]()"
+  - time: 00:35
+    header:
+      image: /img/profile.jpeg
+      text: NOTE
+    body:
+      p:
+        - Skip to <a href="#" onClick="setTime(156.5)">02:36</a>
+  - time: 02:45
+    header:
+      image: /img/profile.jpeg
+      text: Chemistry
+    body:
+      p:
+        - One of the defining characteristics of life is that the organisim is made up of cells.
+        - These cells are made up of molecules.  These molecules make up things like DNA, RNA, carbohydrates, proteins, nucleic acids, and more.
+        - Citation - [https://www.ck12.org/biology/Characteristics-of-Life/lesson/Characteristics-of-Life-Advanced-BIO-ADV/]()
+        - Citation - [https://www.ck12.org/c/biology/cells/lesson/Cells-Advanced-BIO-ADV/]()
+  - time: 02:56
+    header:
+      image: /img/profile.jpeg
+      text: Energy
+    body:
+      p:
+        - Defined as "the ability to move matter or change matter"
+        - This can come in many forms, including sunlight or geothermal heat.
+        - Citation - [https://www.ck12.org/c/physical-science/energy/lesson/Energy-MS-PS/]()
+  - time: 03:05
+    header:
+      image: /img/profile.jpeg
+      text: Right amount of Energy
+    body:
+      p:
+        - Life can be sustained in temperatures ranging from -15°C to 122°C (5°F to 252°F)
+        - Citation - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4156692/]()
+  - time: 03:10
+    header:
+      image: /img/profile.jpeg
+      text: Right distance from stars
+    image: 
+      url: https://www.nasa.gov/sites/default/files/thumbnails/image/complifezonewtxt-full.jpg
+      alt: Examples of "Habitable Zones" for different star temperatures - Created by NASA
+    body:
+      p:
+        - The distance between a star an the planet for life to be sustained depends on the temperature of the star.
+        - Citation - [https://www.nasa.gov/ames/kepler/habitable-zones-of-different-stars]()
+  - time: 03:16
+    header:
+      image: /img/profile.jpeg
+      text: NOTE - WORK IN PROGRESS
+    body:
+      p:
+        - This is still a work in progress. 
