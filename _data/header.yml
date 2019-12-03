@@ -17,6 +17,8 @@ left-header:
         external-link: https://u.osu.edu/engr1182spring2017class7219teamc/
       - text: OSU ART 3009 Final Project
         internal-link: projects/art-3009.html
+      - text: OSU BIOLOGY 1105 Final Project
+        internal-link: projects/biology-1105.html
       - text: Rocket League Minimap Generator
         external-link: https://github.com/enzanki-ars/rocket-league-minimap-generator
 right-header:
