@@ -72,7 +72,20 @@ cards:
   - time: 03:16
     header:
       image: /img/profile.jpeg
-      text: NOTE - WORK IN PROGRESS
+      text: Heavy Elements
+    image:
+      url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/periodic_table_small_v3.png
+      alt: The Origin of the Solar System Elements
     body:
       p:
-        - This is still a work in progress. 
+        - The definition of "heavy elements" is not well defined, but seems to be defined by elements larger than Boron.
+        - Elements are created in stars as they age. Once the star dies, these heavier elements become the material that planets are made of.
+        - Citation - [http://coolcosmos.ipac.caltech.edu/ask/205-What-are-stars-made-of-]()
+        - Citation - [http://www.astronomy.ohio-state.edu/~jaj/nucleo/]()
+  - time: 03:23
+    header:
+      image: /img/profile.jpeg
+      text: Water
+    body:
+      p:
+        - Water is a molecule made up of two Hydrogen atoms and one Oxygen atom. As noted already, Oxygen is considered one of those heavy elements.
