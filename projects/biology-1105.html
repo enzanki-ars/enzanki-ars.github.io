@@ -13,17 +13,22 @@ layout: full-width
 	from {
 		opacity: 0;
 		height: 0;
-		margin: 0em;
+		margin-bottom: 0em;
+		border: 0px;
 	}
 	to {
 		opacity: 1;
 		height: unset;
-		margin: 1em;
+		margin-bottom: 1em;
+		border: unset;
 	}
 }
 </style>
 
 <h3>Biology 1105 - Final Project</h3>
+
+{% assign sorted_cards = site.data.projects.biology-1105.cards | sort: 'time' %}
+
 <div class="row">
 	<div class="col-lg-8">
 		<div class="embed-responsive embed-responsive-16by9">
@@ -31,15 +36,19 @@ layout: full-width
 		</div>
 	</div>
 	<div class="col-lg-4">
-		<div style="height: calc(((66.7vw/16)*9)); overflow-y: scroll;">
-			{% for card in site.data.projects.biology-1105.cards reversed %}
-			<div class="card" style="margin: 0em; opacity: 0; height: 0;" id="enhanced-card-{{ site.data.projects.biology-1105.cards.size | minus: forloop.index }}">
+		<div style="height: calc(((66.7vw/16)*9) - 1.5em); overflow-y: scroll;">
+			{% for card in sorted_cards reversed %}
+			<div class="card" style="margin: 0em; margin-right: 1em; opacity: 0; height: 0; border: 0px;" id="enhanced-card-{{ site.data.projects.biology-1105.cards.size | minus: forloop.index }}">
 				<div class="card-header">
 					<div class="media">
 						<img src="{{ card.header.image }}" class="mr-2 rounded-sm" style="height: 1.5rem; width: 1.5rem;">
-						<div class="media-body">
-							<h5 class="mt-0">{{ card.header.text }}</h5>
-						</div>
+						
+						<h5 class="w-100">
+							<div class="d-flex">
+								<div class="flex-grow-1">{{ card.header.text }}</div>
+								<div><span class="badge badge-pill badge-{{ card.header.tag.style | default: 'primary' }}">{{ card.header.tag.text | default: "Info" }}</span></div>
+							</div>
+						</h5>
 					</div>
 				</div>
 				{% if card.image %}
@@ -52,6 +61,14 @@ layout: full-width
 					</p>
 					{% endfor %}
 				</div>
+				{% if card.citations %}
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item"><h6>Citations:</h6></li>
+						{% for citation in card.citations %}
+							<li class="list-group-item"><a href="{{citation.url}}">{{citation.url}}</a></li>
+						{% endfor %}
+					</ul>
+				{% endif %}
 				<div class="card-footer text-muted">
 					<a href="#" onClick="setTime({{card.time}})">{{card.time | to_integer | date: "%M:%S"}}</a>
 				</div>
@@ -62,9 +79,7 @@ layout: full-width
 </div>
 
 <script>
-	{% assign timestamps = site.data.projects.biology-1105.cards | map: "time" %}
-
-	var timestamps = {{ timestamps | jsonify }};
+	var timestamps = {{ sorted_cards | map: "time" | jsonify }};
 	var start_card_id = 0;
 
 	var tag = document.createElement('script');

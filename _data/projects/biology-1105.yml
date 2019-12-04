@@ -3,14 +3,34 @@ cards:
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: Melodysheep
+      tag: 
+        style: success
+        text: Video Info
     body:
       p:
         - Original video available at [https://www.youtube.com/watch?v=SUelbSa-OkA]()
         - Soundtrack available at [https://melodysheep.bandcamp.com/album/life-beyond-chapter-1-original-soundtrack]()
+        - Support Melodysheep on Patreon at [http://patreon.com/melodysheep]()
+  - time: 00:04
+    header:
+      image: https://pbs.twimg.com/profile_images/828656153978613760/xwRfPxqt_400x400.jpg
+      text: Protocol Labs
+      tag: 
+        style: warning
+        text: Video Sponsor
+    image: 
+      url: https://protocol.ai/img/blog/protocol_labs.jpg
+      alt: Protocol Labs Logo
+    body:
+      p:
+        - Melodysheep's production was supported by [Protocol Labs](https://protocol.ai/)
   - time: 00:08
     header:
       image: /img/profile.jpeg
       text: Enhanced Version
+      tag: 
+        style: light
+        text: Credits
     body:
       p:
         - This is an enhanced version designed for educational purposes.
@@ -19,60 +39,96 @@ cards:
     header:
       image: https://yt3.ggpht.com/a/AGF-l79GR-ZMtPZ-fQyTI_4kGdIm1BfUTsbRBk57JA=s88-c-k-c0xffffffff-no-rj-mo
       text: Naration
+      tag: 
+        style: secondary
+        text: Naration
     body:
       p:
         - "Naration from National Film Board: Universe"
         - Directed by Roman Kroitor, Colin Low - 1960
         - "Video: [https://youtu.be/48gIN4hGOdI?t=1530]()"
-  - time: 00:35
+  - time: 01:56
     header:
-      image: /img/profile.jpeg
-      text: NOTE
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Melodysheep
+      tag: 
+        style: dark
+        text: Title
     body:
       p:
-        - Skip to <a href="#" onClick="setTime(156.5)">02:36</a>
+        - LIFE BEYOND
+  - time: 02:02
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Melodysheep
+      tag: 
+        style: dark
+        text: Title
+    body:
+      p:
+        - "Chapter 1: The Dawn"
+        - Alien life, deep time, and our place in cosmic history
   - time: 02:45
     header:
       image: /img/profile.jpeg
       text: Chemistry
+      tag: 
+        style: primary
+        text: Additional Info
     body:
       p:
         - One of the defining characteristics of life is that the organisim is made up of cells.
-        - These cells are made up of molecules.  These molecules make up things like DNA, RNA, carbohydrates, proteins, nucleic acids, and more.
-        - Citation - [https://www.ck12.org/biology/Characteristics-of-Life/lesson/Characteristics-of-Life-Advanced-BIO-ADV/]()
-        - Citation - [https://www.ck12.org/c/biology/cells/lesson/Cells-Advanced-BIO-ADV/]()
+        - These cells are made up of molecules. These molecules make up things like DNA, RNA, carbohydrates, proteins, nucleic acids, and more.
+    citations: 
+      - url: https://www.ck12.org/biology/Characteristics-of-Life/lesson/Characteristics-of-Life-Advanced-BIO-ADV/
+      - url: https://www.ck12.org/c/biology/cells/lesson/Cells-Advanced-BIO-ADV/
   - time: 02:56
     header:
       image: /img/profile.jpeg
       text: Energy
+      tag: 
+        style: primary
+        text: Additional Info
     body:
       p:
         - Defined as "the ability to move matter or change matter"
-        - This can come in many forms, including sunlight or geothermal heat.
-        - Citation - [https://www.ck12.org/c/physical-science/energy/lesson/Energy-MS-PS/]()
+        - This can come in many forms, including sunlight, geothermal heat, molecules, etc.
+    citations: 
+      - url: https://www.ck12.org/c/physical-science/energy/lesson/Energy-MS-PS/
   - time: 03:05
     header:
       image: /img/profile.jpeg
       text: Right amount of Energy
+      tag: 
+        style: primary
+        text: Additional Info
     body:
       p:
         - Life can be sustained in temperatures ranging from -15°C to 122°C (5°F to 252°F)
-        - Citation - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4156692/]()
+    citations: 
+      - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4156692/
   - time: 03:10
     header:
       image: /img/profile.jpeg
       text: Right distance from stars
+      tag: 
+        style: primary
+        text: Additional Info
     image: 
       url: https://www.nasa.gov/sites/default/files/thumbnails/image/complifezonewtxt-full.jpg
       alt: Examples of "Habitable Zones" for different star temperatures - Created by NASA
     body:
       p:
         - The distance between a star an the planet for life to be sustained depends on the temperature of the star.
-        - Citation - [https://www.nasa.gov/ames/kepler/habitable-zones-of-different-stars]()
+    citations: 
+      - url: https://www.nasa.gov/ames/kepler/habitable-zones-of-different-stars
   - time: 03:16
     header:
       image: /img/profile.jpeg
       text: Heavy Elements
+      tag: 
+        style: primary
+        text: Additional Info
     image:
       url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/periodic_table_small_v3.png
       alt: The Origin of the Solar System Elements
@@ -80,12 +136,218 @@ cards:
       p:
         - The definition of "heavy elements" is not well defined, but seems to be defined by elements larger than Boron.
         - Elements are created in stars as they age. Once the star dies, these heavier elements become the material that planets are made of.
-        - Citation - [http://coolcosmos.ipac.caltech.edu/ask/205-What-are-stars-made-of-]()
-        - Citation - [http://www.astronomy.ohio-state.edu/~jaj/nucleo/]()
-  - time: 03:23
+    citations: 
+      - url: http://coolcosmos.ipac.caltech.edu/ask/205-What-are-stars-made-of-
+      - url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/
+  - time: 03:24
     header:
       image: /img/profile.jpeg
       text: Water
+      tag: 
+        style: primary
+        text: Additional Info
     body:
       p:
         - Water is a molecule made up of two Hydrogen atoms and one Oxygen atom. As noted already, Oxygen is considered one of those heavy elements.
+  - time: 03:49
+    header:
+      image: /img/profile.jpeg
+      text: Chains of Molecules
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Chains of molecules can either come in the form of hydrocarbons or polymers. Both of these contain of carbon atoms and both form some of the building blocks of life.
+        - Hydrocarbons contain only hydrogen and carbon atoms. The bonds between the atoms store energy that can be released.
+        - Polymers come in the form of carbohydrates, nucleic acids, and proteins.  These have various roles such as being the backbone of DNA/RNA, fuel storage, provide structure to cells, and many more.
+    citations: 
+      - url: https://www2.virginia.edu/bohr/mse209/chapter15.htm
+      - url: https://www.khanacademy.org/science/biology/properties-of-carbon/carbon/a/carbon-and-hydrocarbons
+  - time: 04:08
+    header:
+      image: /img/profile.jpeg
+      text: Goldilocks Zone
+      tag: 
+        style: primary
+        text: Additional Info
+    image:
+      url: https://exoplanets.nasa.gov/system/resources/detail_files/323_Goldilocks_Zone_draft_02.jpg
+      alt: Goldilocks Zone
+    body:
+      p:
+        - These "goldilocks conditions" are also refered to as "Goldilocks Zones," one way scientists are narowing the search for life.
+    citations: 
+      - url: https://exoplanets.nasa.gov/resources/323/goldilocks-zone/
+  - time: 04:18
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Melodysheep
+      tag: 
+        style: dark
+        text: Title
+    body:
+      p:
+        - "**Earth**"
+        - 4 Billion Years Ago
+  - time: 04:36
+    header:
+      image: /img/profile.jpeg
+      text: Cracks in the Earth's Crust
+      tag: 
+        style: primary
+        text: Additional Info
+    image:
+      url: https://www.nps.gov/subjects/geology/images/TectonicPlates.jpg?maxwidth=1200&maxheight=1200&autorotate=false
+      alt: Techtonic plates
+    body:
+      p:
+        - Refered to as "Plate Tectonics."
+        - Crust is the top layer of the Earth.
+        - Ranges from about 5 km thick in the ocean, about 30-35 km on the continents, and about 100 km thick in some mountain ranges.
+        - Cracks release heat and are one source of volcanoes.
+    citations: 
+      - url: https://www.nps.gov/subjects/geology/plate-tectonics.htm
+  - time: 05:20
+    header:
+      image: /img/profile.jpeg
+      text: "Pictured: Mitosis"
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - The splitting of a cell in two, replicating it's DNA.
+  - time: 05:24
+    header:
+      image: /img/profile.jpeg
+      text: "Pictured: DNA"
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - A type of nucleic acid that encodes genetic information.
+  - time: 06:29
+    header:
+      image: /img/profile.jpeg
+      text: Life in a vacuum
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - "\"Researchers from the University of Sherbrooke in Quebec, Canada [...] showed that some organic molecules that form the building blocks of life could develop in icy films subjected to radiation within a vacuum, opening the possibility that life on this planet might actually be extraterrestrial in origin.\""
+    citations: 
+      - url: https://futurism.com/scientists-find-new-evidence-life-begun-space
+  - time: 07:28
+    header:
+      image: /img/profile.jpeg
+      text: Exoplanets
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - "Definition: \"Any planet beyond our solar system\""
+        - In the last 20 years, 3200 exoplanets have been confirmed.
+    citations: 
+      - url: https://exoplanets.nasa.gov/what-is-an-exoplanet/about-exoplanets/
+      - url: https://exoplanets.nasa.gov/what-is-an-exoplanet/how-do-we-find-habitable-planets/
+  - time: 08:14
+    header:
+      image: /img/profile.jpeg
+      text: "\"Where there is water, there is life\""
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - "\"Where there is water, there is life\" - A hypothesis yet to be confirmed."
+  - time: 08:30
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: KEPLER-62F
+      tag: 
+        style: dark
+        text: Title
+    body:
+      p:
+        - "Distance: 1200 Light Years."
+        - "Size: 1.4x Earth."
+        - "Temperature: ≥ -85ºF."
+        - "Age: ~7 billion years."
+        - "Possible Water World"
+  - time: 08:38
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: TRAPPIST-1D
+      tag: 
+        style: dark
+        text: Title
+    body:
+      p:
+        - "Distance: 41 Light Years."
+        - "Size: 0.77x Earth."
+        - "Temperature: ≥ 20ºF."
+        - "Age: ~7.5 billion years."
+        - "Notes: Possible Water World"
+  - time: 08:49
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: TEEGARDEN-B
+      tag: 
+        style: dark
+        text: Title
+    body:
+      p:
+        - "Distance: 12 Light Years."
+        - "Size: 1.07x Earth."
+        - "Minimum temperature: ≥ 20ºF."
+        - "Age: 2.5 billion years."
+        - "Notes: Possible Water World"
+  - time: 08:59
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: K2-18B
+      tag: 
+        style: dark
+        text: Title
+    body:
+      p:
+        - "Distance: 111 Light Years."
+        - "Size: 2.7x Earth."
+        - "Temperature: -100 -116ºF."
+        - "Notes: Confirmed atmospheric water vapor"
+  - time: 10:28
+    header:
+      image: /img/profile.jpeg
+      text: "5,000,000,000"
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Based on earlier numbers presented here by NASA, that could mean that **_at least_ 0.000064‬%** exoplanets have been observed in our galaxy.
+  - time: 10:48
+    header:
+      image: /img/profile.jpeg
+      text: "100,000,000,000,000,000,000"
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Which could mean that **_at least_ ‭0.0000000000000032‬‬%** exoplanets have been observed in the universe.
+  - time: 11:27
+    header:
+      image: /img/profile.jpeg
+      text: Age of the Earth
+      tag: 
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Earth is about 4.6 billion years old.
+    citations: 
+      - url: https://www.britannica.com/science/geologic-history-of-Earth/The-pregeologic-period
