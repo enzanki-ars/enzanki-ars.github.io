@@ -29,6 +29,18 @@ layout: full-width
 
 {% assign sorted_cards = site.data.projects.biology-1105.cards | sort: 'time' %}
 
+<div class="alert alert-primary" role="alert">
+	This project is designed to display additional information about content
+	in the video while watching.  It contains {{ sorted_cards | size }}
+	different cards, {{ sorted_cards | where_exp:"item", "item.header.tag.text == 'Additional Info'" | size }}
+	of which expand topics shown within the video.
+</div>
+<div class="alert alert-danger d-lg-none" role="alert">
+  <strong>WARNING:</strong> This content is not designed to be viewed on small screens.
+  If you are on a tablet, try rotating your screen to be in landscape mode.
+  If you are on a computer, try resizing your screen to be larger.
+</div>
+
 <div class="row">
 	<div class="col-lg-8">
 		<div class="embed-responsive embed-responsive-16by9">
