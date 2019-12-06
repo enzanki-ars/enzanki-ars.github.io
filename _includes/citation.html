@@ -1,0 +1,28 @@
+{% if include.citation.authors %}
+    {{ include.citation.authors }}.
+{% endif %}
+{% if include.citation.article_title %}
+    "{{ include.citation.article_title }}"
+{% endif %}
+{% if include.citation.website_title %}
+    <i>{{ include.citation.website_title }}</i>
+    {% if include.citation.journal or include.citation.publish_date or include.citation.url %}
+        ,
+    {% endif %}
+{% endif %}
+{% if include.citation.journal %}
+    <i>{{ include.citation.journal }}</i>
+    {% if include.citation.publish_date or include.citation.url %}
+        ,
+    {% endif %}
+{% endif %}
+{% if include.citation.publish_date %}
+    {{ include.citation.publish_date }}
+    {% if include.citation.url %}
+        ,
+    {% endif %}
+{% endif %}
+{% if include.citation.url %}
+<a href="{{ include.citation.url }}">{{ include.citation.url }}</a>
+{% endif %}
+.

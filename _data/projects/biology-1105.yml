@@ -81,7 +81,17 @@ cards:
         - These cells are made up of molecules. These molecules make up things like DNA, RNA, carbohydrates, proteins, nucleic acids, and more.
     citations:
       - url: https://www.ck12.org/biology/Characteristics-of-Life/lesson/Characteristics-of-Life-Advanced-BIO-ADV/
+        authors: Wilkin, Douglas, and Niamh Gray-Wilson
+        article_title: Characteristics of Life
+        website_title: CK
+        sponsor: CK-12 Foundation
+        publish_date: 20 Nov. 2019
       - url: https://www.ck12.org/c/biology/cells/lesson/Cells-Advanced-BIO-ADV/
+        authors: Wilkin, Douglas, and Niamh Gray-Wilson
+        article_title: Cells
+        website_title: CK
+        sponsor: CK-12 Foundation
+        publish_date: 20 Nov. 2019
   - time: 02:56
     header:
       image: /img/profile.jpeg
@@ -95,6 +105,11 @@ cards:
         - This can come in many forms, including sunlight, geothermal heat, molecules, etc.
     citations:
       - url: https://www.ck12.org/c/physical-science/energy/lesson/Energy-MS-PS/
+        authors: Brainard, Jean
+        article_title: Energy
+        website_title: CK
+        sponsor: CK-12 Foundation
+        publish_date: 20 Nov. 2019
   - time: 03:05
     header:
       image: /img/profile.jpeg
@@ -107,6 +122,9 @@ cards:
         - Life can be sustained in temperatures ranging from -15°C to 122°C (5°F to 252°F)
     citations:
       - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4156692/
+        authors: McKay, Christopher P
+        article_title: Requirements and limits for life in the context of exoplanets.
+        journal: "Proceedings of the National Academy of Sciences of the United States of America vol. 111,35 (2014): 12628-33. doi:10.1073/pnas.1304212111"
   - time: 03:10
     header:
       image: /img/profile.jpeg
@@ -122,6 +140,11 @@ cards:
         - The distance between a star an the planet for life to be sustained depends on the temperature of the star.
     citations:
       - url: https://www.nasa.gov/ames/kepler/habitable-zones-of-different-stars
+        authors: Johnson, Michele
+        article_title: Habitable Zones of Different Stars
+        website_title: NASA
+        sponsor: National Aeronautics and Space Administration
+        publish_date: 26 Oct. 2018
   - time: 03:16
     header:
       image: /img/profile.jpeg
@@ -138,7 +161,13 @@ cards:
         - Elements are created in stars as they age. Once the star dies, these heavier elements become the material that planets are made of.
     citations:
       - url: http://coolcosmos.ipac.caltech.edu/ask/205-What-are-stars-made-of-
+        article_title: What are stars made of?
+        website_title: Cool Cosmos
+        sponsor: IPAC at Caltech
       - url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/
+        authors: Johnson, Jennifer
+        article_title: The Origin of the Elements
+        sponsor: The Ohio State University Department of Astronomy
   - time: 03:24
     header:
       image: /img/profile.jpeg
@@ -163,7 +192,14 @@ cards:
         - Polymers come in the form of carbohydrates, nucleic acids, and proteins.  These have various roles such as being the backbone of DNA/RNA, fuel storage, provide structure to cells, and many more.
     citations:
       - url: https://www2.virginia.edu/bohr/mse209/chapter15.htm
+        article_title: Chapter 15. Polymer Structures
+        website_title: MSE209-3 Home - Spring 2004
+        sponsor: University of Virginia
       - url: https://www.khanacademy.org/science/biology/properties-of-carbon/carbon/a/carbon-and-hydrocarbons
+        article_title: Carbon and hydrocarbons
+        website_title: Khan Academy
+        sponsor: Khan Academy
+        publish_date: 3 Dec. 2019
   - time: 04:08
     header:
       image: /img/profile.jpeg
@@ -179,6 +215,9 @@ cards:
         - These "goldilocks conditions" are also referred to as "Goldilocks Zones," one way scientists are narrowing the search for life.
     citations:
       - url: https://exoplanets.nasa.gov/resources/323/goldilocks-zone/
+        article_title: Goldilocks Zone
+        website_title: Exoplanet Exploration
+        sponsor: National Aeronautics and Space Administration
   - time: 04:18
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
@@ -208,6 +247,9 @@ cards:
         - Cracks release heat and are one source of volcanoes.
     citations:
       - url: https://www.nps.gov/subjects/geology/plate-tectonics.htm
+        article_title: Plate Tectonics
+        website_title: Geology
+        sponsor: National Park Service
   - time: 05:20
     header:
       image: /img/profile.jpeg
@@ -240,6 +282,11 @@ cards:
         - '"Researchers from the University of Sherbrooke in Quebec, Canada [...] showed that some organic molecules that form the building blocks of life could develop in icy films subjected to radiation within a vacuum, opening the possibility that life on this planet might actually be extraterrestrial in origin."'
     citations:
       - url: https://futurism.com/scientists-find-new-evidence-life-begun-space
+        authors: Caughill, Patrick
+        article_title: Scientists Find New Evidence That Life Could Have Begun In Space
+        website_title: Futurism
+        sponsor: Futurism
+        publish_date: 15 Dec. 2017
   - time: 07:28
     header:
       image: /img/profile.jpeg
@@ -253,7 +300,13 @@ cards:
         - In the last 20 years, 3200 exoplanets have been confirmed.
     citations:
       - url: https://exoplanets.nasa.gov/what-is-an-exoplanet/about-exoplanets/
+        article_title: About Exoplanets
+        website_title: Exoplanet Exploration
+        sponsor: National Aeronautics and Space Administration
       - url: https://exoplanets.nasa.gov/what-is-an-exoplanet/how-do-we-find-habitable-planets/
+        article_title: "Warm welcome: finding habitable planets"
+        website_title: Exoplanet Exploration
+        sponsor: National Aeronautics and Space Administration
   - time: 08:14
     header:
       image: /img/profile.jpeg
@@ -351,6 +404,10 @@ cards:
         - Earth is about 4.6 billion years old.
     citations:
       - url: https://www.britannica.com/science/geologic-history-of-Earth/The-pregeologic-period
+        article_title: The Pregeologic Period
+        website_title: Geologic history of Earth
+        sponsor: Encyclopædia Britannica
+        publish_date: 23 Sep. 2017
   - time: 12:16
     header:
       image: /img/profile.jpeg
@@ -363,6 +420,11 @@ cards:
         - "The Earth has roughly (and we're speaking very roughly here) 7.5 x 10<sup>18</sup> grains of sand, or seven quintillion, five hundred quadrillion grains."
     citations:
       - url: https://www.npr.org/sections/krulwich/2012/09/17/161096233/which-is-greater-the-number-of-sand-grains-on-earth-or-stars-in-the-sky
+        authors: Krulwich, Robert
+        article_title: Which Is Greater, The Number Of Sand Grains On Earth Or Stars In The Sky?
+        website_title: Krulwich Wonders
+        sponsor: National Public Radio
+        publish_date: 17 Sep. 2012
   - time: 13:10
     header:
       image: /img/profile.jpeg
@@ -376,6 +438,9 @@ cards:
         - "Surface temperature: 471°C (880°F)"
     citations:
       - url: https://solarsystem.nasa.gov/planets/venus/in-depth/
+        article_title: Venus
+        website_title: Solar System Exploration
+        sponsor: National Aeronautics and Space Administration
   - time: 13:47
     header:
       image: /img/profile.jpeg
@@ -400,8 +465,19 @@ cards:
         - Signs of the ingredients for life were confirmed in 2017 by the Cassini team.
     citations:
       - url: https://solarsystem.nasa.gov/missions/cassini/science/enceladus/
+        article_title: "Enceladus: Ocean Moon"
+        website_title: Cassini
+        sponsor: National Aeronautics and Space Administration
       - url: https://solarsystem.nasa.gov/news/12916/cassini-at-enceladus-a-decade-plus-of-discovery/
+        article_title: "Cassini at Enceladus: A Decade-Plus of Discovery"
+        website_title: Solar System Exploration
+        sponsor: National Aeronautics and Space Administration
+        publish_date: 30 Dec. 2015
       - url: https://solarsystem.nasa.gov/news/13024/nasa-missions-provide-new-insights-into-ocean-worlds-in-our-solar-system/
+        article_title: "NASA Missions Provide New Insights into 'Ocean Worlds' in Our Solar System"
+        website_title: Solar System Exploration
+        sponsor: National Aeronautics and Space Administration
+        publish_date: 12 Apr. 2017
   - time: 14:11
     header:
       image: /img/profile.jpeg
@@ -415,6 +491,9 @@ cards:
         - Has rivers, lakes, and seas of liquid methane and ethane. Could have water under the surface.
     citations:
       - url: https://solarsystem.nasa.gov/moons/saturn-moons/titan/in-depth/
+        article_title: Titan
+        website_title: Solar System Exploration
+        sponsor: National Aeronautics and Space Administration
   - time: 14:28
     header:
       image: /img/profile.jpeg
@@ -431,6 +510,10 @@ cards:
         - Will have 8 rotors and will fly over the surface for over 108 miles (175 km).
     citations:
       - url: https://www.nasa.gov/press-release/nasas-dragonfly-will-fly-around-titan-looking-for-origins-signs-of-life
+        article_title: "NASA's Dragonfly Will Fly Around Titan Looking for Origins, Signs of Life"
+        website_title: NASA
+        sponsor: National Aeronautics and Space Administration
+        publish_date: 27 Jun. 2019
   - time: 14:37
     header:
       image: /img/profile.jpeg
@@ -454,6 +537,11 @@ cards:
         - Newer studies have found that UV radiation from the sun hitting the surface and the presence of perchlorates create an environment that may not be as suitable for life.
     citations:
       - url: https://www.space.com/37402-mars-life-soil-toxic-perchlorates-radiation.html
+        authors: Wall, Mike
+        article_title: Mars Soil May Be Toxic to Microbes
+        website_title: space.com
+        sponsor: space.com
+        publish_date: 6 Jul. 2017
   - time: 17:50
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
@@ -483,7 +571,13 @@ cards:
         - 380,000 years after the Big Bang, the temperature would have been about 3000 °K (4940.3 °F, 2726.8 °C)
     citations:
       - url: https://courses.lumenlearning.com/astronomy/chapter/the-beginning-of-the-universe/
+        article_title: The Beginning of the Universe
+        website_title: "Astronomy: The Big Bang"
+        sponsor: lumen
       - url: http://www.astro.ucla.edu/~wright/BBhistory.html
+        authors: Wright, Edward
+        article_title: Brief History of the Universe
+        sponsor: UCLA Astronomy & Astrophysics
   - time: 19:45
     header:
       image: /img/profile.jpeg
@@ -496,7 +590,14 @@ cards:
         - Create 100 million years after the Big Bang. Referred to as population III stars.
     citations:
       - url: https://www.physics.uu.se/research/astronomy-and-space-physics/research/galaxies/first-stars-galaxies/
+        authors: Zackrisson, Erik and Martin Sahlén
+        article_title: The First Stars and Galaxies
+        website_title: Department of Physics and Astronomy
+        sponsor: Uppsala University Department of Physics and Astronomy
       - url: http://www.astro.ucla.edu/~wright/BBhistory.html
+        authors: Wright, Edward
+        article_title: Brief History of the Universe
+        sponsor: UCLA Astronomy & Astrophysics
   - time: 20:05
     header:
       image: /img/profile.jpeg
@@ -509,6 +610,9 @@ cards:
       alt: The Origin of the Solar System Elements
     citations:
       - url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/
+        authors: Johnson, Jennifer
+        article_title: The Origin of the Elements
+        sponsor: The Ohio State University Department of Astronomy
   - time: 20:23
     header:
       image: /img/profile.jpeg
@@ -522,6 +626,11 @@ cards:
         - Two types - Type I and Type II.  Type I occurs when the star gains mass from nearby objects.  Type II occurs when the star collapses under it's own mass.
     citations:
       - url: https://www.space.com/6638-supernova.html
+        author: Andrea Thompson
+        article_title: What Is a Supernova?
+        website_title: space.com
+        sponsor: space.com
+        publish_date: 9 Feb. 2018
   - time: 21:46
     header:
       image: /img/profile.jpeg

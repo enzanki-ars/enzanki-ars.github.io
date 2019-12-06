@@ -5,3 +5,19 @@ layout: full-width
 <h3>Biology 1105 - Final Project</h3>
 
 {% include enhanced-video.html card_data=site.data.projects.biology-1105.cards video_id='SUelbSa-OkA' %}
+
+<hr/>
+
+<h5>Works Cited</h5>
+
+{% assign citations = sorted_cards | map: "citations" %}
+
+<ul>
+{% for citation_set in citations %}
+	{% for citation in citation_set %}
+		<li>
+			{% include citation.html citation=citation %}
+		</li>
+	{% endfor %}
+{% endfor %}
+</ul>
