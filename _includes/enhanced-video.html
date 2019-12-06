@@ -1,0 +1,155 @@
+{% assign sorted_cards = include.card_data | sort: 'time' %}
+
+<style>
+.fade-in {
+  animation-name: fade-in-animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-animation {
+	from {
+		opacity: 0;
+		height: 0;
+		margin-bottom: 0em;
+		border: 0px;
+	}
+	to {
+		opacity: 1;
+		height: unset;
+		margin-bottom: 1em;
+		border: unset;
+	}
+}
+</style>
+
+<div class="alert alert-primary" role="alert">
+	This project is designed to display additional information about content
+	in the video while watching.  It contains {{ sorted_cards | size }}
+	different cards, {{ sorted_cards | where_exp:"item", "item.header.tag.text == 'Additional Info'" | size }}
+	of which expand topics shown within the video.
+</div>
+<div class="alert alert-danger d-lg-none" role="alert">
+  <strong>WARNING:</strong> This content is not designed to be viewed on small screens.
+  If you are on a tablet, try rotating your screen to be in landscape mode.
+  If you are on a computer, try resizing your screen to be larger.
+</div>
+
+<div class="row">
+	<div class="col-lg-8">
+		<div class="embed-responsive embed-responsive-16by9">
+			<div class="embed-responsive-item" id="player"></div>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div style="height: calc(((66.7vw/16)*9) - 1.5em); overflow-y: scroll;">
+			<p class="text-muted" id="time-until-next-card">Initializing cards...</p>
+			{% for card in sorted_cards reversed %}
+			<div class="card" style="margin: 0em; margin-right: 1em; opacity: 0; height: 0; border: 0px;" id="enhanced-card-{{ sorted_cards | size | minus: forloop.index }}">
+				<div class="card-header">
+					<div class="media">
+						<img src="{{ card.header.image }}" class="mr-2 rounded-sm" style="height: 1.5rem; width: 1.5rem;">
+						
+						<h5 class="w-100">
+							<div class="d-flex">
+								<div class="flex-grow-1">{{ card.header.text }}</div>
+								<div><span class="badge badge-pill badge-{{ card.header.tag.style | default: 'primary' }}">{{ card.header.tag.text | default: "Info" }}</span></div>
+							</div>
+						</h5>
+					</div>
+				</div>
+				{% if card.image %}
+				<img src="{{card.image.url}}" class="card-img-top" alt="{{card.image.alt}}">
+				{% endif %}
+				{% if card.body %}
+				<div class="card-body">
+					{% for body_text in card.body.p %}
+					<p class="card-text">
+						{{ body_text | markdownify }}
+					</p>
+					{% endfor %}
+				</div>
+				{% endif %}
+				{% if card.citations %}
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item"><strong>Citations:</strong></li>
+						{% for citation in card.citations %}
+							<li class="list-group-item"><a href="{{citation.url}}">{{citation.url}}</a></li>
+						{% endfor %}
+					</ul>
+				{% endif %}
+				<div class="card-footer text-muted">
+					<a href="#" onClick="setTime({{card.time}})">{{card.time | to_integer | date: "%M:%S"}}</a>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<script>
+	var timestamps = {{ sorted_cards | map: "time" | jsonify }};
+	var start_card_id = -1;
+
+	var tag = document.createElement('script');
+
+	tag.src = "https://www.youtube.com/iframe_api";
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	var player;
+	function onYouTubeIframeAPIReady() {
+		player = new YT.Player('player', {
+			videoId: '{{ include.video_id }}',
+			autoplay: 0,
+			enablejsapi: 1,
+			fs: 0,
+			modestbranding: 1,
+			playsinline: 1,
+			rel: 0,
+			events: {
+				'onReady': onPlayerReady
+			}
+		});
+	}
+
+	function onPlayerReady(event) {
+		function updateTime() {
+			var videotime = player.getCurrentTime();
+			
+			onProgress(videotime);
+		}
+		timeupdater = setInterval(updateTime, 500);
+	}
+
+	function onProgress(videotime) {
+		//console.log(videotime);
+
+		for (var i=start_card_id; i < timestamps.length; i++) {
+			if (player.getCurrentTime() >= timestamps[i]) {
+				document.getElementById("enhanced-card-" + i).classList.add("fade-in");
+				start_card_id = i;
+			}
+		}
+
+		if ((start_card_id + 1) < timestamps.length) {
+			next_time = timestamps[start_card_id+1];
+			next_time_text = formatAsMinutesFromSeconds(next_time)
+			next_time_until = Math.round(next_time - player.getCurrentTime());
+
+
+			document.getElementById("time-until-next-card").innerHTML = 
+				"Next Card in " + next_time_until + " seconds (<a href='#'' onClick='setTime(" + next_time + ")''>" + next_time_text + "</a>).";
+		} else {
+			document.getElementById("time-until-next-card").innerText = "Thank you for watching!"
+		}
+	}
+
+	function setTime(time) {
+		player.seekTo(time);
+	}
+
+	function formatAsMinutesFromSeconds(time) {
+		return ('0'+Math.floor(time / 60)).slice(-2) + ':' + ('0'+Math.floor(time % 60)).slice(-2);
+	}
+</script>

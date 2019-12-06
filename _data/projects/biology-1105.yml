@@ -30,7 +30,7 @@ cards:
       text: Enhanced Version
       tag:
         style: light
-        text: Credits
+        text: About
     body:
       p:
         - This is an enhanced version designed for educational purposes.
