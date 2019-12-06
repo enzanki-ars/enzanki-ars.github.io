@@ -3,7 +3,7 @@ cards:
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: Melodysheep
-      tag: 
+      tag:
         style: success
         text: Video Info
     body:
@@ -15,10 +15,10 @@ cards:
     header:
       image: https://pbs.twimg.com/profile_images/828656153978613760/xwRfPxqt_400x400.jpg
       text: Protocol Labs
-      tag: 
+      tag:
         style: warning
         text: Video Sponsor
-    image: 
+    image:
       url: https://protocol.ai/img/blog/protocol_labs.jpg
       alt: Protocol Labs Logo
     body:
@@ -28,7 +28,7 @@ cards:
     header:
       image: /img/profile.jpeg
       text: Enhanced Version
-      tag: 
+      tag:
         style: light
         text: Credits
     body:
@@ -38,20 +38,20 @@ cards:
   - time: 00:27
     header:
       image: https://yt3.ggpht.com/a/AGF-l79GR-ZMtPZ-fQyTI_4kGdIm1BfUTsbRBk57JA=s88-c-k-c0xffffffff-no-rj-mo
-      text: Naration
-      tag: 
+      text: Narration
+      tag:
         style: secondary
-        text: Naration
+        text: Narration
     body:
       p:
-        - "Naration from National Film Board: Universe"
+        - "Narration from National Film Board: Universe"
         - Directed by Roman Kroitor, Colin Low - 1960
         - "Video: [https://youtu.be/48gIN4hGOdI?t=1530]()"
   - time: 01:56
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: Melodysheep
-      tag: 
+      tag:
         style: dark
         text: Title
     body:
@@ -61,7 +61,7 @@ cards:
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: Melodysheep
-      tag: 
+      tag:
         style: dark
         text: Title
     body:
@@ -72,61 +72,61 @@ cards:
     header:
       image: /img/profile.jpeg
       text: Chemistry
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
       p:
-        - One of the defining characteristics of life is that the organisim is made up of cells.
+        - One of the defining characteristics of life is that the organism is made up of cells.
         - These cells are made up of molecules. These molecules make up things like DNA, RNA, carbohydrates, proteins, nucleic acids, and more.
-    citations: 
+    citations:
       - url: https://www.ck12.org/biology/Characteristics-of-Life/lesson/Characteristics-of-Life-Advanced-BIO-ADV/
       - url: https://www.ck12.org/c/biology/cells/lesson/Cells-Advanced-BIO-ADV/
   - time: 02:56
     header:
       image: /img/profile.jpeg
       text: Energy
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
       p:
         - Defined as "the ability to move matter or change matter"
         - This can come in many forms, including sunlight, geothermal heat, molecules, etc.
-    citations: 
+    citations:
       - url: https://www.ck12.org/c/physical-science/energy/lesson/Energy-MS-PS/
   - time: 03:05
     header:
       image: /img/profile.jpeg
       text: Right amount of Energy
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
       p:
         - Life can be sustained in temperatures ranging from -15°C to 122°C (5°F to 252°F)
-    citations: 
+    citations:
       - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4156692/
   - time: 03:10
     header:
       image: /img/profile.jpeg
       text: Right distance from stars
-      tag: 
+      tag:
         style: primary
         text: Additional Info
-    image: 
+    image:
       url: https://www.nasa.gov/sites/default/files/thumbnails/image/complifezonewtxt-full.jpg
       alt: Examples of "Habitable Zones" for different star temperatures - Created by NASA
     body:
       p:
         - The distance between a star an the planet for life to be sustained depends on the temperature of the star.
-    citations: 
+    citations:
       - url: https://www.nasa.gov/ames/kepler/habitable-zones-of-different-stars
   - time: 03:16
     header:
       image: /img/profile.jpeg
       text: Heavy Elements
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     image:
@@ -136,14 +136,14 @@ cards:
       p:
         - The definition of "heavy elements" is not well defined, but seems to be defined by elements larger than Boron.
         - Elements are created in stars as they age. Once the star dies, these heavier elements become the material that planets are made of.
-    citations: 
+    citations:
       - url: http://coolcosmos.ipac.caltech.edu/ask/205-What-are-stars-made-of-
       - url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/
   - time: 03:24
     header:
       image: /img/profile.jpeg
       text: Water
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
@@ -153,7 +153,7 @@ cards:
     header:
       image: /img/profile.jpeg
       text: Chains of Molecules
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
@@ -161,14 +161,14 @@ cards:
         - Chains of molecules can either come in the form of hydrocarbons or polymers. Both of these contain of carbon atoms and both form some of the building blocks of life.
         - Hydrocarbons contain only hydrogen and carbon atoms. The bonds between the atoms store energy that can be released.
         - Polymers come in the form of carbohydrates, nucleic acids, and proteins.  These have various roles such as being the backbone of DNA/RNA, fuel storage, provide structure to cells, and many more.
-    citations: 
+    citations:
       - url: https://www2.virginia.edu/bohr/mse209/chapter15.htm
       - url: https://www.khanacademy.org/science/biology/properties-of-carbon/carbon/a/carbon-and-hydrocarbons
   - time: 04:08
     header:
       image: /img/profile.jpeg
       text: Goldilocks Zone
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     image:
@@ -176,14 +176,14 @@ cards:
       alt: Goldilocks Zone
     body:
       p:
-        - These "goldilocks conditions" are also refered to as "Goldilocks Zones," one way scientists are narowing the search for life.
-    citations: 
+        - These "goldilocks conditions" are also referred to as "Goldilocks Zones," one way scientists are narrowing the search for life.
+    citations:
       - url: https://exoplanets.nasa.gov/resources/323/goldilocks-zone/
   - time: 04:18
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: Melodysheep
-      tag: 
+      tag:
         style: dark
         text: Title
     body:
@@ -194,25 +194,25 @@ cards:
     header:
       image: /img/profile.jpeg
       text: Cracks in the Earth's Crust
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     image:
       url: https://www.nps.gov/subjects/geology/images/TectonicPlates.jpg?maxwidth=1200&maxheight=1200&autorotate=false
-      alt: Techtonic plates
+      alt: Tectonic plates
     body:
       p:
-        - Refered to as "Plate Tectonics."
+        - Referred to as "Plate Tectonics."
         - Crust is the top layer of the Earth.
         - Ranges from about 5 km thick in the ocean, about 30-35 km on the continents, and about 100 km thick in some mountain ranges.
         - Cracks release heat and are one source of volcanoes.
-    citations: 
+    citations:
       - url: https://www.nps.gov/subjects/geology/plate-tectonics.htm
   - time: 05:20
     header:
       image: /img/profile.jpeg
       text: "Pictured: Mitosis"
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
@@ -222,7 +222,7 @@ cards:
     header:
       image: /img/profile.jpeg
       text: "Pictured: DNA"
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
@@ -232,43 +232,43 @@ cards:
     header:
       image: /img/profile.jpeg
       text: Life in a vacuum
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
       p:
-        - "\"Researchers from the University of Sherbrooke in Quebec, Canada [...] showed that some organic molecules that form the building blocks of life could develop in icy films subjected to radiation within a vacuum, opening the possibility that life on this planet might actually be extraterrestrial in origin.\""
-    citations: 
+        - '"Researchers from the University of Sherbrooke in Quebec, Canada [...] showed that some organic molecules that form the building blocks of life could develop in icy films subjected to radiation within a vacuum, opening the possibility that life on this planet might actually be extraterrestrial in origin."'
+    citations:
       - url: https://futurism.com/scientists-find-new-evidence-life-begun-space
   - time: 07:28
     header:
       image: /img/profile.jpeg
       text: Exoplanets
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
       p:
-        - "Definition: \"Any planet beyond our solar system\""
+        - 'Definition: "Any planet beyond our solar system"'
         - In the last 20 years, 3200 exoplanets have been confirmed.
-    citations: 
+    citations:
       - url: https://exoplanets.nasa.gov/what-is-an-exoplanet/about-exoplanets/
       - url: https://exoplanets.nasa.gov/what-is-an-exoplanet/how-do-we-find-habitable-planets/
   - time: 08:14
     header:
       image: /img/profile.jpeg
-      text: "\"Where there is water, there is life\""
-      tag: 
+      text: '"Where there is water, there is life"'
+      tag:
         style: primary
         text: Additional Info
     body:
       p:
-        - "\"Where there is water, there is life\" - A hypothesis yet to be confirmed."
+        - '"Where there is water, there is life" - A hypothesis yet to be confirmed.'
   - time: 08:30
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: KEPLER-62F
-      tag: 
+      tag:
         style: dark
         text: Title
     body:
@@ -282,7 +282,7 @@ cards:
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: TRAPPIST-1D
-      tag: 
+      tag:
         style: dark
         text: Title
     body:
@@ -296,7 +296,7 @@ cards:
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: TEEGARDEN-B
-      tag: 
+      tag:
         style: dark
         text: Title
     body:
@@ -310,7 +310,7 @@ cards:
     header:
       image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
       text: K2-18B
-      tag: 
+      tag:
         style: dark
         text: Title
     body:
@@ -323,7 +323,7 @@ cards:
     header:
       image: /img/profile.jpeg
       text: "5,000,000,000"
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
@@ -333,7 +333,7 @@ cards:
     header:
       image: /img/profile.jpeg
       text: "100,000,000,000,000,000,000"
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
@@ -343,11 +343,239 @@ cards:
     header:
       image: /img/profile.jpeg
       text: Age of the Earth
-      tag: 
+      tag:
         style: primary
         text: Additional Info
     body:
       p:
         - Earth is about 4.6 billion years old.
-    citations: 
+    citations:
       - url: https://www.britannica.com/science/geologic-history-of-Earth/The-pregeologic-period
+  - time: 12:16
+    header:
+      image: /img/profile.jpeg
+      text: Grains of Sand on Earth
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - "The Earth has roughly (and we're speaking very roughly here) 7.5 x 10<sup>18</sup> grains of sand, or seven quintillion, five hundred quadrillion grains."
+    citations:
+      - url: https://www.npr.org/sections/krulwich/2012/09/17/161096233/which-is-greater-the-number-of-sand-grains-on-earth-or-stars-in-the-sky
+  - time: 13:10
+    header:
+      image: /img/profile.jpeg
+      text: Venus
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - "Atmosphere: Carbon dioxide and sulfuric acid (Creates a greenhouse effect.)"
+        - "Surface temperature: 471°C (880°F)"
+    citations:
+      - url: https://solarsystem.nasa.gov/planets/venus/in-depth/
+  - time: 13:47
+    header:
+      image: /img/profile.jpeg
+      text: Gravitational Energy
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Referred to as Gravitational Energy.
+  - time: 13:58
+    header:
+      image: /img/profile.jpeg
+      text: Enceladus
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Moon of Saturn.
+        - Vents in the ocean below the icy surface releases hydrogen gas.
+        - Signs of the ingredients for life were confirmed in 2017 by the Cassini team.
+    citations:
+      - url: https://solarsystem.nasa.gov/missions/cassini/science/enceladus/
+      - url: https://solarsystem.nasa.gov/news/12916/cassini-at-enceladus-a-decade-plus-of-discovery/
+      - url: https://solarsystem.nasa.gov/news/13024/nasa-missions-provide-new-insights-into-ocean-worlds-in-our-solar-system/
+  - time: 14:11
+    header:
+      image: /img/profile.jpeg
+      text: Titan
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Moon of Saturn.
+        - Has rivers, lakes, and seas of liquid methane and ethane. Could have water under the surface.
+    citations:
+      - url: https://solarsystem.nasa.gov/moons/saturn-moons/titan/in-depth/
+  - time: 14:28
+    header:
+      image: /img/profile.jpeg
+      text: Dragonfly Mission
+      tag:
+        style: primary
+        text: Additional Info
+    image:
+      url: https://www.nasa.gov/sites/default/files/thumbnails/image/dragonfly-landing.png
+      alt: Dragonfly rotorcraft-lander approaching a site on Titan
+    body:
+      p:
+        - Launches in 2026, lands in 2034.
+        - Will have 8 rotors and will fly over the surface for over 108 miles (175 km).
+    citations:
+      - url: https://www.nasa.gov/press-release/nasas-dragonfly-will-fly-around-titan-looking-for-origins-signs-of-life
+  - time: 14:37
+    header:
+      image: /img/profile.jpeg
+      text: 100 trillion
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - "100,000,000,000,000"
+  - time: 15:23
+    header:
+      image: /img/profile.jpeg
+      text: Mars Soil
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - "_Still researching more about this graph._"
+        - Newer studies have found that UV radiation from the sun hitting the surface and the presence of perchlorates create an environment that may not be as suitable for life.
+    citations:
+      - url: https://www.space.com/37402-mars-life-soil-toxic-perchlorates-radiation.html
+  - time: 17:50
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Timelapse of the Entire Universe by Melodysheep
+      tag:
+        style: success
+        text: Video Link
+    image:
+      url: https://i.ytimg.com/vi/TBikbn5XJhg/maxresdefault.jpg
+      alt: Timelapse of the Entire Universe by Melodysheep
+    body:
+      p:
+        - Learn more with another one of Melodysheep's videos - Timelapse of the Entire Universe
+        - "[https://www.youtube.com/watch?v=TBikbn5XJhg]()"
+  - time: 18:39
+    header:
+      image: /img/profile.jpeg
+      text: Temperature of the Universe after the Big Bang
+      tag:
+        style: primary
+        text: Additional Info
+    image:
+      url: https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1095/2016/11/03171130/OSC_Astro_29_03_Temp.jpg
+      alt: Temperature of the Universe over time (in logarithmic scale)
+    body:
+      p:
+        - 380,000 years after the Big Bang, the temperature would have been about 3000 °K (4940.3 °F, 2726.8 °C)
+    citations:
+      - url: https://courses.lumenlearning.com/astronomy/chapter/the-beginning-of-the-universe/
+      - url: http://www.astro.ucla.edu/~wright/BBhistory.html
+  - time: 19:45
+    header:
+      image: /img/profile.jpeg
+      text: The First Stars
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - Create 100 million years after the Big Bang. Referred to as population III stars.
+    citations:
+      - url: https://www.physics.uu.se/research/astronomy-and-space-physics/research/galaxies/first-stars-galaxies/
+      - url: http://www.astro.ucla.edu/~wright/BBhistory.html
+  - time: 20:05
+    header:
+      image: /img/profile.jpeg
+      text: Elements of the First Stars
+      tag:
+        style: primary
+        text: Additional Info
+    image:
+      url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/periodic_table_small_v3.png
+      alt: The Origin of the Solar System Elements
+    citations:
+      - url: http://www.astronomy.ohio-state.edu/~jaj/nucleo/
+  - time: 20:23
+    header:
+      image: /img/profile.jpeg
+      text: Supernova
+      tag:
+        style: primary
+        text: Additional Info
+    body:
+      p:
+        - '"A supernova will occur about once every 50 years in a galaxy the size of the Milky Way."'
+        - Two types - Type I and Type II.  Type I occurs when the star gains mass from nearby objects.  Type II occurs when the star collapses under it's own mass.
+    citations:
+      - url: https://www.space.com/6638-supernova.html
+  - time: 21:46
+    header:
+      image: /img/profile.jpeg
+      text: 75 °F = 24 °C
+      tag:
+        style: primary
+        text: Additional Info
+  - time: 25:01
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Timelapse of the Future by Melodysheep
+      tag:
+        style: success
+        text: Video Link
+    image:
+      url: https://i.ytimg.com/vi/uD4izuDMUQA/maxresdefault.jpg
+      alt: Timelapse of the Future by Melodysheep
+    body:
+      p:
+        - Learn more with another one of Melodysheep's videos - Timelapse of the Future
+        - "[https://www.youtube.com/watch?v=uD4izuDMUQA]()"
+  - time: 29:06
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Credits
+      tag:
+        style: success
+        text: Video Info
+    body:
+      p:
+        - "**Supported by:** Protocol Labs"
+        - "**Concept, music & visuals by:** Melodysheep (John D. Boswell)"
+        - "**Featuring the voices of:** Douglas Rain, David Christian, Michelle Thaller, Orson Welles, Andrew Siemion, Dan Werthimer, Avi Loeb, Ellen Stofan, and Lawrence Krauss."
+        - "**Additional visuals by:** Julius Horsthuis, Konstantin Kovalenko, NASA, Evolve"
+        - "**Thanks to:** Juan Benet, Julius Horsthuis, Konstantin Kovalenko, Avi Loeb, and to Melodysheep's [Patreon Supporters](http://patreon.com/melodysheep)"
+        - "**Website:** [melodysheep.com](https://www.melodysheep.com/)"
+        - "**Instagram:** [@melodysheep_](https://www.instagram.com/melodysheep_/)"
+        - "**Twitter:** [@musicalscience](https://twitter.com/musicalscience)"
+        - >
+          **Voice Sources:** [\"National Film Board: Universe\"](https://www.youtube.com/watch?v=48gIN4hGOdI), 
+          [\"David Christian TED Talk\"](https://www.youtube.com/watch?v=yqc9zX04DXs), 
+          [\"Dan Werthimer TEDx Talk\"](https://www.youtube.com/watch?v=CmtEWBz_2kE), 
+          [\"Andrew Siemion: Beyond the Singularity\"](https://www.youtube.com/watch?v=jJMBwqhD9DE), 
+          [\"Orson Welles: Who’s Out There\"](https://www.youtube.com/watch?v=CPkg_sJn2rU),
+          [\"Avi Loeb: The Case for Cosmic Modesty\"](https://www.youtube.com/watch?v=PeHdqpTr170),
+          [\"Michelle Thaller in how the Universe Works\"](https://www.youtube.com/watch?v=VymuQC0o7yQ),
+          [\"Lawrence Krauss: Life, the Universe, and Nothing: A Cosmic Mystery Story\"](https://www.youtube.com/watch
+  - time: 30:15
+    header:
+      image: https://yt3.ggpht.com/a/AGF-l7-GhYv57eMcNAREO5ACzmsiyLGggSlm5Z2raQ=s88-c-k-c0xffffffff-no-rj-mo
+      text: Next Time
+      tag:
+        style: success
+        text: Video Info
+    body:
+      p:
+        - "**Next on Life Beyond:** Making contact with intelligent life. Surviving the end of the universe. The physics of alien life & more."

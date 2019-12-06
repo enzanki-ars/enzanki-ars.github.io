@@ -66,6 +66,7 @@ layout: full-width
 				{% if card.image %}
 				<img src="{{card.image.url}}" class="card-img-top" alt="{{card.image.alt}}">
 				{% endif %}
+				{% if card.body %}
 				<div class="card-body">
 					{% for body_text in card.body.p %}
 					<p class="card-text">
@@ -73,9 +74,10 @@ layout: full-width
 					</p>
 					{% endfor %}
 				</div>
+				{% endif %}
 				{% if card.citations %}
 					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><h6>Citations:</h6></li>
+						<li class="list-group-item"><strong>Citations:</strong></li>
 						{% for citation in card.citations %}
 							<li class="list-group-item"><a href="{{citation.url}}">{{citation.url}}</a></li>
 						{% endfor %}
