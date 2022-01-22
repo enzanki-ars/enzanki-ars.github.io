@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  {% if site.github.owner_gravatar_url %}
+    <a class="navbar-brand" href="{{ site.github.url }}/index.html">
+    <img alt="Brand" src="{{ site.github.owner_gravatar_url }}" style="width: 36px; height: 36px; border-radius: 5px;">
+    </a>
+  {% endif %}
+  {% if site.github.project_title %}
+    <a class="navbar-brand" href="{{ site.github.url }}/index.html">{{ site.github.project_title }}</a>
+  {% else %}
+    <a class="navbar-brand" href="{{ site.github.url }}/index.html">{{ site.title }}</a>
+  {% endif %}
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {% for link in site.data.header.left-header %}
+        {% include navbarlink.html link=link %}
+      {% endfor %}
+    </ul>
+
+    <ul class="navbar-nav my-2 my-lg-0">
+      {% for link in site.data.header.right-header %}
+        {% include navbarlink.html link=link %}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

@@ -381,7 +381,7 @@ cards:
         text: Additional Info
     body:
       p:
-        - Based on earlier numbers presented here by NASA, that could mean that **_at least_ 0.000064‬%** exoplanets have been observed in our galaxy.
+        - Based on earlier numbers presented here by NASA, that could mean that **_at least_ 0.000064%** exoplanets have been observed in our galaxy.
   - time: 10:48
     header:
       image: /img/profile.jpeg
@@ -391,7 +391,7 @@ cards:
         text: Additional Info
     body:
       p:
-        - Which could mean that **_at least_ ‭0.0000000000000032‬‬%** exoplanets have been observed in the universe.
+        - Which could mean that **_at least_ 0.0000000000000032%** exoplanets have been observed in the universe.
   - time: 11:27
     header:
       image: /img/profile.jpeg
@@ -674,7 +674,7 @@ cards:
           [\"David Christian TED Talk\"](https://www.youtube.com/watch?v=yqc9zX04DXs), 
           [\"Dan Werthimer TEDx Talk\"](https://www.youtube.com/watch?v=CmtEWBz_2kE), 
           [\"Andrew Siemion: Beyond the Singularity\"](https://www.youtube.com/watch?v=jJMBwqhD9DE), 
-          [\"Orson Welles: Who’s Out There\"](https://www.youtube.com/watch?v=CPkg_sJn2rU),
+          [\"Orson Welles: Who's Out There\"](https://www.youtube.com/watch?v=CPkg_sJn2rU),
           [\"Avi Loeb: The Case for Cosmic Modesty\"](https://www.youtube.com/watch?v=PeHdqpTr170),
           [\"Michelle Thaller in how the Universe Works\"](https://www.youtube.com/watch?v=VymuQC0o7yQ),
           [\"Lawrence Krauss: Life, the Universe, and Nothing: A Cosmic Mystery Story\"](https://www.youtube.com/watch
