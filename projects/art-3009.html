@@ -4,15 +4,15 @@ layout: default
 
 <h3>Art 3009 - Final Project</h3>
 
-<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+<link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet">
 
-<div class="embed-responsive embed-responsive-16by9">
-	<video-js id="my-video" class="embed-responsive-item vjs-default-skin" preload="auto" controls playsinline loop>
+<div class="ratio ratio-16x9">
+	<video id="my-video" class="video-js" preload="auto" controls playsinline loop style="position: absolute !important;">
 	    <source src="https://storage.googleapis.com/enzanki_ars_videos/segments/final-version-main.m3u8" type="application/x-mpegURL">
-	</video-js>
+	</video>
 </div>
 
-<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+<script src="https://vjs.zencdn.net/7.17.0/video.js"></script>
 
 	<script>
 	var player = videojs('my-video', {
