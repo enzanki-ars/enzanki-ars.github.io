@@ -10,7 +10,7 @@
     {% else %}
       <a class="navbar-brand" href="{{ site.github.url }}/index.html">{{ site.title }}</a>
     {% endif %}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -20,6 +20,8 @@
           {% include navbarlink.html link=link %}
         {% endfor %}
       </ul>
+
+      <hr class="dropdown-divider">
 
       <ul class="navbar-nav my-2 my-lg-0">
         {% for link in site.data.header.right-header %}
