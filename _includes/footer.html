@@ -1,21 +1,25 @@
 <hr>
 <footer>
-  <strong>Licence</strong>
-  <ul>
+  <ul class="fa-ul">
     <li>
-      Content for {{ site.title }} is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+      <span class="fa-li"><i class="fa-solid fa-file-lines"></i></span>
+      Content for {{ site.title }} is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
     </li>
     <li>
-      Code for {{ site.title }} is licenced under a <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v3</a>.
+      <span class="fa-li"><i class="fa-solid fa-file-code"></i></span>
+      Code for {{ site.title }} is licensed under <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v3</a>.
     </li>
   </ul>
-  <p>
-    Code avalible at <a href="{{ site.github.repository_url }}">{{ site.github.repository_url }}</a>
-  </p>
-  <p>
-    Page compiled at {{ site.time | date: "%A, %B %e, %Y %l:%M%P %Z" }} for commit
-    <a data-toggle="tooltip" data-placement="auto" title="Environment: {{ jekyll.environment }}" href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision }}</a>. 
-  </p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa-solid fa-code"></i></span>
+      Code available at <a href="{{ site.github.repository_url }}">{{ site.github.repository_url }}</a>
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa-solid fa-code-branch"></i></span>
+      Page compiled at {{ site.time | date: "%A, %B %e, %Y %l:%M%P %Z" }} for commit
+      <a data-toggle="tooltip" data-placement="auto" title="Environment: {{ jekyll.environment }}" href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision | truncate: 7, "" }}</a>. 
+    </li>
 </footer>
 
 </div>
