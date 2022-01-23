@@ -1,24 +1,47 @@
 {% if include.link.dropdown %}
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" id="link-{{ include.link.text | slugify }}" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {% if include.link.icon %}
+        <i class="fa-fw {{ include.link.icon }}"></i>
+      {% endif %}
       {{ include.link.text }}
     </a>
-    <div class="dropdown-menu" aria-labelledby="link-{{ include.link.text | slugify }}" >
+    <div class="dropdown-menu dropdown-menu-{{ include.drop_dir }}" aria-labelledby="link-{{ include.link.text | slugify }}" >
       {% for link in include.link.dropdown %}
         {% if link.internal-link %}
-          <a class="dropdown-item" href="{{ site.github.url }}/{{ link.internal-link }}">{{ link.text }}</a>
+          <a class="dropdown-item" href="{{ site.github.url }}/{{ link.internal-link }}">
+            {% if link.icon %}
+              <i class="fa-fw {{ link.icon }}"></i>
+            {% endif %}
+            {{ link.text }}
+          </a>
         {% else %}
-          <a class="dropdown-item" href="{{ link.external-link }}">{{ link.text }}</a>
+          <a class="dropdown-item" href="{{ link.external-link }}">
+            {% if link.icon %}
+              <i class="fa-fw {{ link.icon }}"></i>
+            {% endif %}
+            {{ link.text }}
+          </a>
         {% endif %}
       {% endfor %}
     </div>
   </li>
 {% elsif include.link.internal-link %}
   <li class="nav-item">
-    <a class="nav-link" href="{{ site.github.url }}/{{ include.link.internal-link }}">{{ include.link.text }}</a>
+    <a class="nav-link" href="{{ site.github.url }}/{{ include.link.internal-link }}">
+      {% if include.link.icon %}
+        <i class="fa-fw {{ include.link.icon }}"></i>
+      {% endif %}
+      {{ include.link.text }}
+    </a>
   </li>
 {% else %}
   <li class="nav-item">
-    <a class="nav-link" href="{{ include.link.external-link }}">{{ include.link.text }}</a>
+    <a class="nav-link" href="{{ include.link.external-link }}">
+      {% if include.link.icon %}
+        <i class="fa-fw {{ include.link.icon }}"></i>
+      {% endif %}
+      {{ include.link.text }}
+    </a>
   </li>
 {% endif %}

@@ -1,28 +1,41 @@
 left-header:
   - text: Home
     internal-link: index.html
+    icon: fa-light fa-house
   - text: Posts
     internal-link: posts.html
+    icon: fa-light fa-typewriter
   - text: Projects
+    icon: fa-light fa-flask
     dropdown:
       - text: Videos
+        icon: fa-light fa-video
         internal-link: category/video.html
       - text: High School Capstone
+        icon: fa-light fa-graduation-cap
         internal-link: darby-capstone.html
       - text: OSU ENGR 1182 AEV Project
+        icon: fa-light fa-wind-turbine
         external-link: https://u.osu.edu/engr1182spring2017class7219teamc/
       - text: OSU ART 3009 Final Project
+        icon: fa-light fa-video-plus
         internal-link: projects/art-3009.html
       - text: OSU BIOLOGY 1105 Final Project
+        icon: fa-light fa-dna
         internal-link: projects/biology-1105.html
       - text: Rocket League Minimap Generator
+        icon: fa-light fa-gamepad-modern
         external-link: https://github.com/enzanki-ars/rocket-league-minimap-generator
 right-header:
   - text: Privacy
+    icon: fa-light fa-blinds
     internal-link: privacy.html
   - text: Social
+    icon: fa-light fa-share-nodes
     dropdown:
       - text: GitHub
+        icon: fa-brands fa-github
         external-link: https://github.com/enzanki-ars
       - text: Twitter
+        icon: fa-brands fa-twitter
         external-link: https://twitter.com/enzanki_ars
