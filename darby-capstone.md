@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% include ytblock.html %}
-
 # Alex Shafer's Capstone for Hilliard Darby Class of 2016
+
+{% include ytblock.html %}
 
 <ul class="list-group">
   <li class="list-group-item"><b>Experience: </b>Ohio Supercomputer Center's Summer Institute</li>
@@ -26,7 +26,6 @@ such as this are limited in the Hilliard City School District as computer scienc
 offerings have been cut over the past few years. As a result, I have sought
 out ways to expand my knowledge and the Summer Institute offered the potential
 experience I was looking for.
-
 
 #### What new knowledge or new experiences did you hope to gain from this experience?
 
@@ -55,7 +54,7 @@ within myself was gaining new knowledge about computer science and networking.
 
 The Summer Institute was a great experience for me because I had
 not only the opportunity to expand my knowledge about networking and supercomputers,
-but also campus life. I was able to get a feel for not just life in a dorm
+but also campus life. I was able to get a feel for not only life in a dorm
 room, but transportation, dining, and the campus area. I was also able to meet
 new people with similar interests.
 
@@ -74,7 +73,9 @@ many of the basic networking protocols.
 #### How would you do it differently if you had to start over?
 
 The Ohio Supercomputer Center provided a wonderful opportunity that was well planned
-and perfectly executed. The only part I would have changed about this experience
+and left us wishing the experience could have been longer.
+
+The only part I would have changed about this experience
 was the planning of this website. Originally, I created the entire website
 design from scratch, but it was very difficult to update every night in the
 dorm quickly. I experienced many road blocks that prevented timely updates,

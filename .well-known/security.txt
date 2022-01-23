@@ -1,0 +1,5 @@
+Contact: mailto:enzanki.ars@gmail.com
+Expires: 2023-01-01T00:00:00.000Z
+Encryption: https://enzanki-ars.github.io/pubkey.txt
+Canonical: https://enzanki-ars.github.io/.well-known/security.txt
+Preferred-Languages: en
